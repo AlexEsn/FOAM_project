@@ -1,0 +1,32 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     |
+    \\  /    A nd           | Web:      www.OpenFOAM.org
+     \\/     M anipulation  |
+-------------------------------------------------------------------------------
+Description
+    Writes out the maximum cell value for one or more fields.
+\*---------------------------------------------------------------------------*/
+
+    
+type            surfaceFieldValue;
+surfaceFormat   off;
+libs            ("libfieldFunctionObjects.so");
+enabled         true;
+writeControl    timeStep;
+writeInterval   1;
+log             true;
+writeFields     false;
+region          heater;
+regionType      patch;
+name            heater_to_fins;
+operation       areaAverage;
+mode            magnitude;
+fields
+(
+	T
+);
+    
+
+// ************************************************************************* //

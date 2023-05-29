@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Report.aux
+The style file: utf8gost705u.bst
+Database file #1: Overview.bib
+I was expecting a `,' or a `}'---line 9 of file Overview.bib
+ : 
+ : %   language = {en},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--empty journal in aHeatTranserf
+You've used 3 entries,
+            2964 wiz_defined-function locations,
+            680 strings with 5684 characters,
+and the built_in function-call counts, 421 in all, are:
+= -- 47
+> -- 3
+< -- 0
++ -- 3
+- -- 0
+* -- 14
+:= -- 49
+add.period$ -- 6
+call.type$ -- 3
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 4
+duplicate$ -- 24
+empty$ -- 54
+format.name$ -- 0
+if$ -- 104
+int.to.chr$ -- 0
+int.to.str$ -- 3
+missing$ -- 0
+newline$ -- 22
+num.names$ -- 0
+pop$ -- 20
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 12
+stack$ -- 0
+substring$ -- 0
+swap$ -- 8
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 0
+width$ -- 4
+write$ -- 39
+(There was 1 error message)
