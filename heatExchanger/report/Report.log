@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.11.21)  29 MAY 2023 03:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.11.21)  29 MAY 2023 04:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -604,30 +604,25 @@ Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             ! on input line 71.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [1]
-No file Report.toc.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [1] (/home/alexesn/Desktop/MEPhI/Project_practice/FOAM_project/heatExchanger/report/Report.toc)
 \tf@toc=\write3
 \openout3 = `Report.toc'.
 
-[3]
-
-LaTeX Warning: Citation `wOfDocSalome' on page 4 undefined on input line 137.
-
-[4]
+ [3] [4]
 <1.1.png, id=21, 787.743pt x 358.33875pt>
 File: 1.1.png Graphic file (type png)
 <use 1.1.png>
-Package pdftex.def Info: 1.1.png  used on input line 154.
+Package pdftex.def Info: 1.1.png  used on input line 150.
 (pdftex.def)             Requested size: 234.73524pt x 106.77524pt.
 <1.2.png, id=23, 786.5385pt x 422.7795pt>
 File: 1.2.png Graphic file (type png)
 <use 1.2.png>
-Package pdftex.def Info: 1.2.png  used on input line 160.
+Package pdftex.def Info: 1.2.png  used on input line 156.
 (pdftex.def)             Requested size: 234.73524pt x 126.17036pt.
 <1.3.png, id=24, 787.14075pt x 426.393pt>
 File: 1.3.png Graphic file (type png)
 <use 1.3.png>
-Package pdftex.def Info: 1.3.png  used on input line 166.
+Package pdftex.def Info: 1.3.png  used on input line 162.
 (pdftex.def)             Requested size: 234.73524pt x 127.15765pt.
 
 
@@ -637,148 +632,139 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <2.1.png, id=30, 777.50475pt x 348.1005pt>
 File: 2.1.png Graphic file (type png)
 <use 2.1.png>
-Package pdftex.def Info: 2.1.png  used on input line 174.
+Package pdftex.def Info: 2.1.png  used on input line 170.
 (pdftex.def)             Requested size: 234.73524pt x 105.08958pt.
 <2.2.png, id=31, 789.54974pt x 428.802pt>
 File: 2.2.png Graphic file (type png)
 <use 2.2.png>
-Package pdftex.def Info: 2.2.png  used on input line 180.
+Package pdftex.def Info: 2.2.png  used on input line 176.
 (pdftex.def)             Requested size: 234.73524pt x 127.48347pt.
  [6 </home/alexesn/Desktop/MEPhI/Project_practice/FOAM_project/heatExchanger/report/1.3.png> </home/alexesn/Desktop/MEPhI/Project_practice/FOAM_project/heatExchanger/report/2.1.png> </home/alexesn/Desktop/MEPhI/Project_practice/FOAM_project/heatExchanger/report/2.2.png>]
 <2.3.png, id=38, 783.52725pt x 424.58624pt>
 File: 2.3.png Graphic file (type png)
 <use 2.3.png>
-Package pdftex.def Info: 2.3.png  used on input line 187.
+Package pdftex.def Info: 2.3.png  used on input line 183.
 (pdftex.def)             Requested size: 234.73524pt x 127.20192pt.
 <<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
 
 LaTeX Font Warning: Font shape `T2A/cmr/m/up' undefined
-(Font)              using `T2A/cmr/m/n' instead on input line 194.
+(Font)              using `T2A/cmr/m/n' instead on input line 190.
 
-LaTeX Font Info:    Trying to load font information for OML+cmr on input line 194.
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 190.
 (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 
 LaTeX Font Warning: Font shape `OML/cmr/m/up' undefined
-(Font)              using `OML/cmr/m/it' instead on input line 194.
+(Font)              using `OML/cmr/m/it' instead on input line 190.
 
 LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 194.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 190.
 LaTeX Font Info:    Font shape `OML/cmr/m/up' in size <8> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 194.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 190.
 LaTeX Font Info:    Font shape `OML/cmr/m/up' in size <6> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 194.
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 194.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 190.
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 190.
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 
 LaTeX Font Warning: Font shape `OMS/cmr/m/up' undefined
-(Font)              using `OMS/cmr/m/n' instead on input line 194.
+(Font)              using `OMS/cmr/m/n' instead on input line 190.
 
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 194.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 190.
 LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 194.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 190.
 LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <6> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 194.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 194.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 190.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 190.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 194.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 190.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-
-LaTeX Warning: Citation `aHeatTranserf' on page 7 undefined on input line 195.
-
 <3.png, id=43, 945.5325pt x 354.123pt>
 File: 3.png Graphic file (type png)
 <use 3.png>
-Package pdftex.def Info: 3.png  used on input line 221.
-(pdftex.def)             Requested size: 234.73524pt x 87.91452pt.
-
-LaTeX Warning: Citation `wChtMultiRegionFoam' on page 7 undefined on input line 228.
-
-
-LaTeX Warning: Citation `aHeatTranserf' on page 7 undefined on input line 229.
-
-[7 </home/alexesn/Desktop/MEPhI/Project_practice/FOAM_project/heatExchanger/report/2.3.png> </home/alexesn/Desktop/MEPhI/Project_practice/FOAM_project/heatExchanger/report/3.png>]
+Package pdftex.def Info: 3.png  used on input line 217.
+(pdftex.def)             Requested size: 164.31754pt x 61.54016pt.
+ [7 </home/alexesn/Desktop/MEPhI/Project_practice/FOAM_project/heatExchanger/report/2.3.png> </home/alexesn/Desktop/MEPhI/Project_practice/FOAM_project/heatExchanger/report/3.png>]
 <5.1.png, id=55, 816.04875pt x 433.62pt>
 File: 5.1.png Graphic file (type png)
 <use 5.1.png>
-Package pdftex.def Info: 5.1.png  used on input line 235.
-(pdftex.def)             Requested size: 187.78532pt x 99.78343pt.
+Package pdftex.def Info: 5.1.png  used on input line 230.
+(pdftex.def)             Requested size: 211.26028pt x 112.25552pt.
 <5.2.png, id=56, 817.8555pt x 435.42674pt>
 File: 5.2.png Graphic file (type png)
 <use 5.2.png>
-Package pdftex.def Info: 5.2.png  used on input line 242.
-(pdftex.def)             Requested size: 187.78532pt x 99.9733pt.
+Package pdftex.def Info: 5.2.png  used on input line 237.
+(pdftex.def)             Requested size: 211.26028pt x 112.47078pt.
 <5.3.png, id=57, 819.06pt x 437.83575pt>
 File: 5.3.png Graphic file (type png)
 <use 5.3.png>
-Package pdftex.def Info: 5.3.png  used on input line 249.
-(pdftex.def)             Requested size: 187.78532pt x 100.37943pt.
+Package pdftex.def Info: 5.3.png  used on input line 244.
+(pdftex.def)             Requested size: 211.26028pt x 112.92601pt.
  [8 </home/alexesn/Desktop/MEPhI/Project_practice/FOAM_project/heatExchanger/report/5.1.png> </home/alexesn/Desktop/MEPhI/Project_practice/FOAM_project/heatExchanger/report/5.2.png> </home/alexesn/Desktop/MEPhI/Project_practice/FOAM_project/heatExchanger/report/5.3.png>] [9]
 <6.1.png, id=68, 406.51875pt x 433.62pt>
 File: 6.1.png Graphic file (type png)
 <use 6.1.png>
-Package pdftex.def Info: 6.1.png  used on input line 281.
+Package pdftex.def Info: 6.1.png  used on input line 276.
 (pdftex.def)             Requested size: 187.78532pt x 200.3013pt.
 <6.2.png, id=69, 404.712pt x 430.60875pt>
 File: 6.2.png Graphic file (type png)
 <use 6.2.png>
-Package pdftex.def Info: 6.2.png  used on input line 287.
+Package pdftex.def Info: 6.2.png  used on input line 282.
 (pdftex.def)             Requested size: 187.78532pt x 199.8039pt.
  [10 </home/alexesn/Desktop/MEPhI/Project_practice/FOAM_project/heatExchanger/report/6.1.png> </home/alexesn/Desktop/MEPhI/Project_practice/FOAM_project/heatExchanger/report/6.2.png>]
 <6.3.png, id=75, 402.303pt x 433.62pt>
 File: 6.3.png Graphic file (type png)
 <use 6.3.png>
-Package pdftex.def Info: 6.3.png  used on input line 294.
+Package pdftex.def Info: 6.3.png  used on input line 289.
 (pdftex.def)             Requested size: 187.78532pt x 202.40535pt.
 <6.png, id=76, 405.31425pt x 430.60875pt>
 File: 6.png Graphic file (type png)
 <use 6.png>
-Package pdftex.def Info: 6.png  used on input line 300.
+Package pdftex.def Info: 6.png  used on input line 295.
 (pdftex.def)             Requested size: 187.78532pt x 199.50166pt.
  [11 </home/alexesn/Desktop/MEPhI/Project_practice/FOAM_project/heatExchanger/report/6.3.png> </home/alexesn/Desktop/MEPhI/Project_practice/FOAM_project/heatExchanger/report/6.png>]
 <11.1.png, id=82, 386.6445pt x 254.1495pt>
 File: 11.1.png Graphic file (type png)
 <use 11.1.png>
-Package pdftex.def Info: 11.1.png  used on input line 310.
+Package pdftex.def Info: 11.1.png  used on input line 305.
 (pdftex.def)             Requested size: 164.31754pt x 108.00629pt.
 <12.1.png, id=83, 387.24675pt x 252.34274pt>
 File: 12.1.png Graphic file (type png)
 <use 12.1.png>
-Package pdftex.def Info: 12.1.png  used on input line 316.
+Package pdftex.def Info: 12.1.png  used on input line 311.
 (pdftex.def)             Requested size: 164.31754pt x 107.07674pt.
 <13.1.png, id=84, 390.258pt x 251.7405pt>
 File: 13.1.png Graphic file (type png)
 <use 13.1.png>
-Package pdftex.def Info: 13.1.png  used on input line 322.
+Package pdftex.def Info: 13.1.png  used on input line 317.
 (pdftex.def)             Requested size: 164.31754pt x 105.99532pt.
  [12 </home/alexesn/Desktop/MEPhI/Project_practice/FOAM_project/heatExchanger/report/11.1.png> </home/alexesn/Desktop/MEPhI/Project_practice/FOAM_project/heatExchanger/report/12.1.png> </home/alexesn/Desktop/MEPhI/Project_practice/FOAM_project/heatExchanger/report/13.1.png>]
 <14.1.png, id=91, 382.42876pt x 253.54726pt>
 File: 14.1.png Graphic file (type png)
 <use 14.1.png>
-Package pdftex.def Info: 14.1.png  used on input line 329.
+Package pdftex.def Info: 14.1.png  used on input line 324.
 (pdftex.def)             Requested size: 187.78532pt x 124.49844pt.
 <15.1.png, id=92, 380.622pt x 252.34274pt>
 File: 15.1.png Graphic file (type png)
 <use 15.1.png>
-Package pdftex.def Info: 15.1.png  used on input line 335.
+Package pdftex.def Info: 15.1.png  used on input line 330.
 (pdftex.def)             Requested size: 187.78532pt x 124.49997pt.
 <7.1.png, id=93, 819.06pt x 432.4155pt>
 File: 7.1.png Graphic file (type png)
 <use 7.1.png>
-Package pdftex.def Info: 7.1.png  used on input line 345.
+Package pdftex.def Info: 7.1.png  used on input line 340.
 (pdftex.def)             Requested size: 187.78532pt x 99.13676pt.
 <7.2.png, id=94, 819.66225pt x 437.2335pt>
 File: 7.2.png Graphic file (type png)
 <use 7.2.png>
-Package pdftex.def Info: 7.2.png  used on input line 352.
+Package pdftex.def Info: 7.2.png  used on input line 347.
 (pdftex.def)             Requested size: 187.78532pt x 100.16795pt.
 
 
@@ -788,31 +774,34 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <7.3.png, id=102, 814.242pt x 434.8245pt>
 File: 7.3.png Graphic file (type png)
 <use 7.3.png>
-Package pdftex.def Info: 7.3.png  used on input line 359.
+Package pdftex.def Info: 7.3.png  used on input line 354.
 (pdftex.def)             Requested size: 187.78532pt x 100.27956pt.
 <8.1.png, id=103, 817.25325pt x 435.42674pt>
 File: 8.1.png Graphic file (type png)
 <use 8.1.png>
-Package pdftex.def Info: 8.1.png  used on input line 368.
+Package pdftex.def Info: 8.1.png  used on input line 363.
 (pdftex.def)             Requested size: 187.78532pt x 100.04637pt.
 <8.2.png, id=104, 814.242pt x 434.8245pt>
 File: 8.2.png Graphic file (type png)
 <use 8.2.png>
-Package pdftex.def Info: 8.2.png  used on input line 375.
+Package pdftex.def Info: 8.2.png  used on input line 370.
 (pdftex.def)             Requested size: 187.78532pt x 100.27956pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<8.3.png, id=105, 820.2645pt x 437.2335pt>
+[14 </home/alexesn/Desktop/MEPhI/Project_practice/FOAM_project/heatExchanger/report/7.2.png> </home/alexesn/Desktop/MEPhI/Project_practice/FOAM_project/heatExchanger/report/7.3.png> </home/alexesn/Desktop/MEPhI/Project_practice/FOAM_project/heatExchanger/report/8.1.png>]
+<8.3.png, id=111, 820.2645pt x 437.2335pt>
 File: 8.3.png Graphic file (type png)
 <use 8.3.png>
-Package pdftex.def Info: 8.3.png  used on input line 382.
+Package pdftex.def Info: 8.3.png  used on input line 377.
 (pdftex.def)             Requested size: 187.78532pt x 100.09457pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[14 </home/alexesn/Desktop/MEPhI/Project_practice/FOAM_project/heatExchanger/report/7.2.png> </home/alexesn/Desktop/MEPhI/Project_practice/FOAM_project/heatExchanger/report/7.3.png> </home/alexesn/Desktop/MEPhI/Project_practice/FOAM_project/heatExchanger/report/8.1.png>] [15 </home/alexesn/Desktop/MEPhI/Project_practice/FOAM_project/heatExchanger/report/8.2.png> </home/alexesn/Desktop/MEPhI/Project_practice/FOAM_project/heatExchanger/report/8.3.png>] (/home/alexesn/Desktop/MEPhI/Project_practice/FOAM_project/heatExchanger/report/Report.bbl
+<9.png, id=112, 819.66225pt x 436.63126pt>
+File: 9.png Graphic file (type png)
+<use 9.png>
+Package pdftex.def Info: 9.png  used on input line 383.
+(pdftex.def)             Requested size: 187.78532pt x 100.02998pt.
+ [15 </home/alexesn/Desktop/MEPhI/Project_practice/FOAM_project/heatExchanger/report/8.2.png> </home/alexesn/Desktop/MEPhI/Project_practice/FOAM_project/heatExchanger/report/8.3.png> </home/alexesn/Desktop/MEPhI/Project_practice/FOAM_project/heatExchanger/report/9.png>] [16] (/home/alexesn/Desktop/MEPhI/Project_practice/FOAM_project/heatExchanger/report/Report.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 17--19
 []\T2A/cmr/m/n/12 Conjugate heat transfer CFD tutorial for plate fin heat sink. URL:
  []
@@ -827,36 +816,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--24
 \T2A/cmr/m/n/12 https://www.openfoam.com/documentation/guides/latest/doc/guide-applications-
  []
 
-) [16]
-
-Package lastpage Warning: Rerun to get the references right on input line 405.
-
-
+) [17] [18]
+<e.png, id=128, 256.5585pt x 64.44075pt>
+File: e.png Graphic file (type png)
+<use e.png>
+Package pdftex.def Info: e.png  used on input line 413.
+(pdftex.def)             Requested size: 469.47049pt x 117.93031pt.
+<er.png, id=129, 248.127pt x 63.23625pt>
+File: er.png Graphic file (type png)
+<use er.png>
+Package pdftex.def Info: er.png  used on input line 421.
+(pdftex.def)             Requested size: 469.47049pt x 119.64641pt.
+ 
 AED: lastpage setting LastPage
-[17] (/home/alexesn/Desktop/MEPhI/Project_practice/FOAM_project/heatExchanger/report/Report.aux)
+[19 </home/alexesn/Desktop/MEPhI/Project_practice/FOAM_project/heatExchanger/report/e.png> </home/alexesn/Desktop/MEPhI/Project_practice/FOAM_project/heatExchanger/report/er.png>] (/home/alexesn/Desktop/MEPhI/Project_practice/FOAM_project/heatExchanger/report/Report.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 6583 strings out of 481239
- 92627 string characters out of 5920376
- 339452 words of memory out of 5000000
- 21658 multiletter control sequences out of 15000+600000
+ 6603 strings out of 481239
+ 92958 string characters out of 5920376
+ 340478 words of memory out of 5000000
+ 21673 multiletter control sequences out of 15000+600000
  544165 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  30i,9n,32p,1106b,274s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t2a.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1440.pfb>
-Output written on /home/alexesn/Desktop/MEPhI/Project_practice/FOAM_project/heatExchanger/report/Report.pdf (17 pages, 656834 bytes).
+Output written on /home/alexesn/Desktop/MEPhI/Project_practice/FOAM_project/heatExchanger/report/Report.pdf (19 pages, 711828 bytes).
 PDF statistics:
- 159 PDF objects out of 1000 (max. 8388607)
- 74 compressed objects within 1 object stream
+ 172 PDF objects out of 1000 (max. 8388607)
+ 79 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 146 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 161 words of extra memory for PDF output out of 10000 (max. 10000000)
 

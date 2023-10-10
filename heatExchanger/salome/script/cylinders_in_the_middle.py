@@ -158,7 +158,7 @@ base_fins_1 = Mesh_1.GroupOnGeom(base_fins,'base_fins',SMESH.FACE)
 isDone = Mesh_1.Compute()
 [ heater_2, fluid_2, fins_2, inlet_fluid_1, outlet_fluid_1, walls_fluid_1, walls_heater_1, base_fins_1 ] = Mesh_1.GetGroups()
 try:
-  Mesh_1.ExportUNV( r'C:/Users/sasch/OneDrive/Desktop/MEPhI/Project_practice/FOAM_project/heatExchanger/salome/mesh.unv') # написать про это
+  Mesh_1.ExportUNV( r'C:/Users/sasch/OneDrive/Desktop/MEPhI/Project_practice/FOAM_project/heatExchanger/salome/mesh.unv')
   pass
 except:
   print('ExportUNV() failed. Invalid file name?')
