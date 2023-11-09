@@ -49,7 +49,7 @@ Cylinder_1 = geompy.MakeCylinderRH(5, 10)
 geompy.TranslateDXDYDZ(Cylinder_1, -5, -5, 12)
 
 Cylinder_2 = geompy.MakeTranslation(Cylinder_1, 0, 10, 0)
-Cylinder_3 = geompy.MakeTranslation(Cylinder_1, 0, 10, 0)
+Cylinder_3 = geompy.MakeTranslation(Cylinder_2, 0, 10, 0)
 
 Cylinder_1 = geompy.MakeTranslation(Cylinder_1, shift_first_cylinder, 0, 0)
 Cylinder_2 = geompy.MakeTranslation(Cylinder_2, shift_second_cylinder, 0, 0)
