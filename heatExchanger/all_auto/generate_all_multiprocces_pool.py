@@ -6,7 +6,7 @@ from multiprocessing import Manager, Pool
 # Параметры
 min_value = 0
 step = 5
-max_value = 20
+max_value = 1
 
 salome_executable = "~/SALOME-9.11.0-native-UB20.04-SRC/binsalome"
 base_path = '.'

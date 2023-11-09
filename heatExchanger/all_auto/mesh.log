@@ -1,0 +1,912 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  10
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 10-c4cf895ad8fa
+Exec   : ideasUnvToFoam mesh.unv
+Date   : Nov 10 2023
+Time   : 00:25:40
+Host   : "alexesn"
+PID    : 17988
+I/O    : uncollated
+Case   : /home/alexesn/FOAM_project/heatExchanger/all_auto/case_0_0_0
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Processing tag:164
+Starting reading units at line 3.
+l:1
+units:"  SI: Meter (newton)"
+unitType:2
+Unit factors:
+    Length scale       : 1
+    Force scale        : 1
+    Temperature scale  : 1
+    Temperature offset : 273.15
+
+
+Processing tag:2420
+Skipping tag 2420 on line 9
+Skipping section at line 9.
+
+Processing tag:2411
+Starting reading points at line 20.
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  10
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 10-c4cf895ad8fa
+Exec   : ideasUnvToFoam mesh.unv
+Date   : Nov 10 2023
+Time   : 00:25:40
+Host   : "alexesn"
+PID    : 17992
+I/O    : uncollated
+Case   : /home/alexesn/FOAM_project/heatExchanger/all_auto/case_0_5_0
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Processing tag:164
+Starting reading units at line 3.
+l:1
+units:"  SI: Meter (newton)"
+unitType:2
+Unit factors:
+    Length scale       : 1
+    Force scale        : 1
+    Temperature scale  : 1
+    Temperature offset : 273.15
+
+
+Processing tag:2420
+Skipping tag 2420 on line 9
+Skipping section at line 9.
+
+Processing tag:2411
+Starting reading points at line 20.
+Read 3553 points.
+
+Processing tag:2412
+Starting reading cells at line 7129.
+First occurrence of element type 11 for cell 1 at line 7130
+First occurrence of element type 41 for cell 408 at line 8351
+First occurrence of element type 111 for cell 3834 at line 15203
+Read 3607 points.
+
+Processing tag:2412
+Starting reading cells at line 7237.
+First occurrence of element type 11 for cell 1 at line 7238
+First occurrence of element type 41 for cell 407 at line 8456
+First occurrence of element type 111 for cell 3825 at line 15292
+Read 17650 cells and 3426 boundary faces.
+
+Processing tag:2467
+Starting reading patches at line 50505.
+For group 1 named heater trying to read 615 patch face indices.
+For group 2 named fluid trying to read 14407 patch face indices.
+For group 3 named fins trying to read 2628 patch face indices.
+For group 4 named inlet_fluid trying to read 35 patch face indices.
+For group 5 named outlet_fluid trying to read 26 patch face indices.
+For group 6 named walls_fluid trying to read 1307 patch face indices.
+For group 7 named walls_heater trying to read 200 patch face indices.
+For group 8 named base_fins trying to read 428 patch face indices.
+
+Of 3426 so-called boundary faces 1430 belong to two cells and are therefore internal
+Sorting boundary faces according to group (patch)
+0: heater is cellZone
+1: fluid is cellZone
+2: fins is cellZone
+3: inlet_fluid is patch
+4: outlet_fluid is patch
+5: walls_fluid is patch
+6: walls_heater is Read 18013 cells and 3418 boundary faces.
+
+patch
+Processing tag:2467
+Starting reading patches at line 51320.
+7: base_fins is For group 1 named heater trying to read 596 patch face indices.
+patch
+
+Constructing mesh with non-default patches of size:
+    inlet_fluid	35
+    outlet_fluid	26
+    walls_fluid	1307
+    walls_heater	200
+    base_fins	428
+
+For group 2 named fluid trying to read 14777 patch face indices.
+For group 3 named fins trying to read 2640 patch face indices.
+For group 4 named inlet_fluid trying to read 35 patch face indices.
+For group 5 named outlet_fluid trying to read 26 patch face indices.
+For group 6 named walls_fluid trying to read 1305 patch face indices.
+For group 7 named walls_heater trying to read 200 patch face indices.
+For group 8 named base_fins trying to read 416 patch face indices.
+
+Of 3418 so-called boundary faces 1436 belong to two cells and are therefore internal
+Sorting boundary faces according to group (patch)
+0: heater is cellZone
+1: fluid is cellZone
+2: fins is cellZone
+3: inlet_fluid is patch
+4: outlet_fluid is patch
+5: walls_fluid is patch
+6: walls_heater is patch
+7: base_fins is patch
+
+Constructing mesh with non-default patches of size:
+    inlet_fluid	35
+    outlet_fluid	26
+    walls_fluid	1305
+    walls_heater	200
+    base_fins	416
+
+Adding cell and face zones
+ Cell Zone fluid 	14407
+ Cell Zone heater 	615
+ Cell Zone fins 	2628
+
+End
+
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  10
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 10-c4cf895ad8fa
+Exec   : ideasUnvToFoam mesh.unv
+Date   : Nov 10 2023
+Time   : 00:25:40
+Host   : "alexesn"
+PID    : 17996
+I/O    : uncollated
+Case   : /home/alexesn/FOAM_project/heatExchanger/all_auto/case_5_5_0
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Processing tag:164
+Starting reading units at line 3.
+l:1
+units:"  SI: Meter (newton)"
+unitType:2
+Unit factors:
+    Length scale       : 1
+    Force scale        : 1
+    Temperature scale  : 1
+    Temperature offset : 273.15
+
+
+Processing tag:2420
+Skipping tag 2420 on line 9
+Skipping section at line 9.
+
+Processing tag:2411
+Starting reading points at line 20.
+Read 3627 points.
+
+Processing tag:2412
+Starting reading cells at line 7277.
+First occurrence of element type 11 for cell 1 at line 7278
+First occurrence of element type 41 for cell 409 at line 8502
+First occurrence of element type 111 for cell 3847 at line 15378
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  10
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 10-c4cf895ad8fa
+Exec   : transformPoints scale=(0.001 0.001 0.001)
+Date   : Nov 10 2023
+Time   : 00:25:40
+Host   : "alexesn"
+PID    : 17997
+Adding cell and face zones
+ Cell Zone fluid 	14777
+ Cell Zone heater 	596
+ Cell Zone fins 	2640
+
+I/O    : uncollated
+Case   : /home/alexesn/FOAM_project/heatExchanger/all_auto/case_0_0_0
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+End
+
+Writing points into directory "/home/alexesn/FOAM_project/heatExchanger/all_auto/case_0_0_0/constant/polyMesh"
+
+End
+
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  10
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 10-c4cf895ad8fa
+Exec   : transformPoints scale=(0.001 0.001 0.001)
+Date   : Nov 10 2023
+Time   : 00:25:40
+Host   : "alexesn"
+PID    : 17998
+I/O    : uncollated
+Case   : /home/alexesn/FOAM_project/heatExchanger/all_auto/case_0_5_0
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  10
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 10-c4cf895ad8fa
+Exec   : splitMeshRegions -cellZones -overwrite
+Date   : Nov 10 2023
+Time   : 00:25:40
+Host   : "alexesn"
+PID    : 17999
+I/O    : uncollated
+Case   : /home/alexesn/FOAM_project/heatExchanger/all_auto/case_0_0_0
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Writing points into directory "/home/alexesn/FOAM_project/heatExchanger/all_auto/case_0_5_0/constant/polyMesh"
+
+End
+
+Create mesh for time = 0
+
+Creating single patch per inter-region interface.
+
+Trying to match regions to existing cell zones.
+
+
+Number of regions:3
+
+Writing region per cell file (for manual decomposition) to "constant/cellToRegion"
+
+Writing region per cell as volScalarField to "0/cellToRegion"
+
+Region	Cells
+------	-----
+0	14407
+1	615
+2	2628
+
+Region	Zone	Name
+------	----	----
+0	0	fluid
+1	1	heater
+2	2	fins
+
+Sizes of interfaces between regions:
+
+Interface	Region	Region	Faces
+---------	------	------	-----
+0		1	2	56
+1		0	2	1374
+
+Reading geometric fields
+
+Reading volScalarField cellToRegion
+
+
+Adding patches
+
+
+Adding patches
+
+For interface between region heater and fins added patches
+    5	heater_to_fins
+    6	fins_to_heater
+For interface between region fluid and fins added patches
+    7	fluid_to_fins
+    8	fins_to_fluid
+
+Region 0
+-------- 
+Creating mesh for region 0 fluid
+Testing:"/home/alexesn/FOAM_project/heatExchanger/all_auto/case_0_0_0/system/fluid/fvSchemes"
+Read 18157 cells and 3438 boundary faces.
+
+Processing tag:2467
+Starting reading patches at line 51694.
+For group 1 named heater trying to read 609 patch face indices.
+For group 2 named fluid trying to read 14818 patch face indices.
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  10
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 10-c4cf895ad8fa
+Exec   : splitMeshRegions -cellZones -overwrite
+Date   : Nov 10 2023
+Time   : 00:25:40
+Host   : "alexesn"
+PID    : 18000
+I/O    : uncollated
+Case   : /home/alexesn/FOAM_project/heatExchanger/all_auto/case_0_5_0
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Creating single patch per inter-region interface.
+
+For group 3 named fins trying to read 2730 patch face indices.
+For group 4 named inlet_fluid trying to read 35 patch face indices.
+For group 5 named outlet_fluid trying to read 26 patch face indices.
+For group 6 named walls_fluid trying to read 1291 patch face indices.
+For group 7 named walls_heater trying to read 200 patch face indices.
+For group 8 named base_fins trying to read 430 patch face indices.
+
+Mapping fields
+Mapping field cellToRegion
+Deleting empty patches
+Writing new mesh
+Writing addressing to base mesh
+Writing map pointRegionAddressing from region0 points back to base mesh.
+Writing map faceRegionAddressing from region0 faces back to base mesh.
+Writing map cellRegionAddressing from region0 cells back to base mesh.
+
+Region 1
+-------- 
+Creating mesh for region 1 heater
+Testing:"/home/alexesn/FOAM_project/heatExchanger/all_auto/case_0_0_0/system/heater/fvSchemes"
+Mapping fields
+Mapping field cellToRegion
+Deleting empty patches
+Writing new mesh
+Writing addressing to base mesh
+Writing map pointRegionAddressing from region1 points back to base mesh.
+Writing map faceRegionAddressing from region1 faces back to base mesh.
+Writing map cellRegionAddressing from region1 cells back to base mesh.
+
+Region 2
+-------- 
+Creating mesh for region 2 fins
+Testing:"/home/alexesn/FOAM_project/heatExchanger/all_auto/case_0_0_0/system/fins/fvSchemes"
+Of 3438 so-called boundary faces 1456 belong to two cells and are therefore internal
+Sorting boundary faces according to group (patch)
+0: heater is cellZone
+1: fluid is cellZone
+2: fins is cellZone
+3: inlet_fluid is patch
+4: outlet_fluid is patch
+5: walls_fluid is patch
+6: walls_heater is patch
+7: base_fins is patch
+
+Constructing mesh with non-default patches of size:
+    inlet_fluid	35
+    outlet_fluid	26
+    walls_fluid	1291
+    walls_heater	200
+    base_fins	430
+
+Trying to match regions to existing cell zones.
+
+
+Number of regions:3
+
+Writing region per cell file (for manual decomposition) to "constant/cellToRegion"
+
+Writing region per cell as volScalarField to "0/cellToRegion"
+
+Region	Cells
+------	-----
+0	596
+1	14777
+2	2640
+
+Region	Zone	Name
+------	----	----
+0	1	heater
+1	0	fluid
+2	2	fins
+
+Mapping fields
+Mapping field cellToRegion
+Sizes of interfaces between regions:
+
+Interface	Region	Region	Faces
+---------	------	------	-----
+0		1	2	1384
+1		0	2	52
+
+Deleting empty patches
+Reading geometric fields
+
+Reading volScalarField cellToRegion
+Writing new mesh
+
+
+Adding patches
+
+
+Adding patches
+
+For interface between region fluid and fins added patches
+Writing addressing to base mesh
+Writing map pointRegionAddressing from region2 points back to base mesh.
+    5	fluid_to_fins
+    6	fins_to_fluid
+Writing map faceRegionAddressing from region2 faces back to base mesh.
+For interface between region heater and fins added patches
+    7	heater_to_fins
+    8	fins_to_heater
+
+Region 0
+-------- 
+Creating mesh for region 0 heater
+Writing map cellRegionAddressing from region2 cells back to base mesh.
+Testing:"/home/alexesn/FOAM_project/heatExchanger/all_auto/case_0_5_0/system/heater/fvSchemes"
+End
+
+Created 'case_0_0_0{fluid}.OpenFOAM'
+Created 'case_0_0_0{heater}.OpenFOAM'
+Mapping fields
+Created 'case_0_0_0{fins}.OpenFOAM'
+Mapping field cellToRegion
+Deleting empty patches
+Writing new mesh
+Writing addressing to base mesh
+Writing map pointRegionAddressing from region0 points back to base mesh.
+Writing map faceRegionAddressing from region0 faces back to base mesh.
+Writing map cellRegionAddressing from region0 cells back to base mesh.
+
+Region 1
+-------- 
+Creating mesh for region 1 fluid
+Testing:"/home/alexesn/FOAM_project/heatExchanger/all_auto/case_0_5_0/system/fluid/fvSchemes"
+Mapping fields
+Mapping field cellToRegion
+Deleting empty patches
+Writing new mesh
+Writing addressing to base mesh
+Writing map pointRegionAddressing from region1 points back to base mesh.
+Writing map faceRegionAddressing from region1 faces back to base mesh.
+Writing map cellRegionAddressing from region1 cells back to base mesh.
+
+Region 2
+-------- 
+Creating mesh for region 2 fins
+Testing:"/home/alexesn/FOAM_project/heatExchanger/all_auto/case_0_5_0/system/fins/fvSchemes"
+Adding cell and face zones
+ Cell Zone fluid 	14818
+ Cell Zone heater 	609
+ Cell Zone fins 	2730
+
+End
+
+Mapping fields
+Mapping field cellToRegion
+Deleting empty patches
+Writing new mesh
+Writing addressing to base mesh
+Writing map pointRegionAddressing from region2 points back to base mesh.
+Writing map faceRegionAddressing from region2 faces back to base mesh.
+Writing map cellRegionAddressing from region2 cells back to base mesh.
+End
+
+Created 'case_0_5_0{fluid}.OpenFOAM'
+Created 'case_0_5_0{heater}.OpenFOAM'
+Created 'case_0_5_0{fins}.OpenFOAM'
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  10
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 10-c4cf895ad8fa
+Exec   : transformPoints scale=(0.001 0.001 0.001)
+Date   : Nov 10 2023
+Time   : 00:25:40
+Host   : "alexesn"
+PID    : 18012
+I/O    : uncollated
+Case   : /home/alexesn/FOAM_project/heatExchanger/all_auto/case_5_5_0
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Writing points into directory "/home/alexesn/FOAM_project/heatExchanger/all_auto/case_5_5_0/constant/polyMesh"
+
+End
+
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  10
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 10-c4cf895ad8fa
+Exec   : splitMeshRegions -cellZones -overwrite
+Date   : Nov 10 2023
+Time   : 00:25:40
+Host   : "alexesn"
+PID    : 18024
+I/O    : uncollated
+Case   : /home/alexesn/FOAM_project/heatExchanger/all_auto/case_5_5_0
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Creating single patch per inter-region interface.
+
+Trying to match regions to existing cell zones.
+
+
+Number of regions:3
+
+Writing region per cell file (for manual decomposition) to "constant/cellToRegion"
+
+Writing region per cell as volScalarField to "0/cellToRegion"
+
+Region	Cells
+------	-----
+0	609
+1	14818
+2	2730
+
+Region	Zone	Name
+------	----	----
+0	1	heater
+1	0	fluid
+2	2	fins
+
+Sizes of interfaces between regions:
+
+Interface	Region	Region	Faces
+---------	------	------	-----
+0		1	2	1404
+1		0	2	52
+
+Reading geometric fields
+
+Reading volScalarField cellToRegion
+
+
+Adding patches
+
+
+Adding patches
+
+For interface between region fluid and fins added patches
+    5	fluid_to_fins
+    6	fins_to_fluid
+For interface between region heater and fins added patches
+    7	heater_to_fins
+    8	fins_to_heater
+
+Region 0
+-------- 
+Creating mesh for region 0 heater
+Testing:"/home/alexesn/FOAM_project/heatExchanger/all_auto/case_5_5_0/system/heater/fvSchemes"
+Mapping fields
+Mapping field cellToRegion
+Deleting empty patches
+Writing new mesh
+Writing addressing to base mesh
+Writing map pointRegionAddressing from region0 points back to base mesh.
+Writing map faceRegionAddressing from region0 faces back to base mesh.
+Writing map cellRegionAddressing from region0 cells back to base mesh.
+
+Region 1
+-------- 
+Creating mesh for region 1 fluid
+Testing:"/home/alexesn/FOAM_project/heatExchanger/all_auto/case_5_5_0/system/fluid/fvSchemes"
+Mapping fields
+Mapping field cellToRegion
+Deleting empty patches
+Writing new mesh
+Writing addressing to base mesh
+Writing map pointRegionAddressing from region1 points back to base mesh.
+Writing map faceRegionAddressing from region1 faces back to base mesh.
+Writing map cellRegionAddressing from region1 cells back to base mesh.
+
+Region 2
+-------- 
+Creating mesh for region 2 fins
+Testing:"/home/alexesn/FOAM_project/heatExchanger/all_auto/case_5_5_0/system/fins/fvSchemes"
+Mapping fields
+Mapping field cellToRegion
+Deleting empty patches
+Writing new mesh
+Writing addressing to base mesh
+Writing map pointRegionAddressing from region2 points back to base mesh.
+Writing map faceRegionAddressing from region2 faces back to base mesh.
+Writing map cellRegionAddressing from region2 cells back to base mesh.
+End
+
+Created 'case_5_5_0{fluid}.OpenFOAM'
+Created 'case_5_5_0{heater}.OpenFOAM'
+Created 'case_5_5_0{fins}.OpenFOAM'
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  10
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 10-c4cf895ad8fa
+Exec   : ideasUnvToFoam mesh.unv
+Date   : Nov 10 2023
+Time   : 00:25:42
+Host   : "alexesn"
+PID    : 18080
+I/O    : uncollated
+Case   : /home/alexesn/FOAM_project/heatExchanger/all_auto/case_5_0_0
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Processing tag:164
+Starting reading units at line 3.
+l:1
+units:"  SI: Meter (newton)"
+unitType:2
+Unit factors:
+    Length scale       : 1
+    Force scale        : 1
+    Temperature scale  : 1
+    Temperature offset : 273.15
+
+
+Processing tag:2420
+Skipping tag 2420 on line 9
+Skipping section at line 9.
+
+Processing tag:2411
+Starting reading points at line 20.
+Read 4619 points.
+
+Processing tag:2412
+Starting reading cells at line 9261.
+First occurrence of element type 11 for cell 1 at line 9262
+First occurrence of element type 41 for cell 409 at line 10486
+First occurrence of element type 111 for cell 3819 at line 17306
+Read 25757 cells and 3410 boundary faces.
+
+Processing tag:2467
+Starting reading patches at line 68822.
+For group 1 named heater trying to read 745 patch face indices.
+For group 2 named fluid trying to read 21958 patch face indices.
+For group 3 named fins trying to read 3054 patch face indices.
+For group 4 named inlet_fluid trying to read 35 patch face indices.
+For group 5 named outlet_fluid trying to read 26 patch face indices.
+For group 6 named walls_fluid trying to read 1291 patch face indices.
+For group 7 named walls_heater trying to read 200 patch face indices.
+For group 8 named base_fins trying to read 436 patch face indices.
+
+Of 3410 so-called boundary faces 1422 belong to two cells and are therefore internal
+Sorting boundary faces according to group (patch)
+0: heater is cellZone
+1: fluid is cellZone
+2: fins is cellZone
+3: inlet_fluid is patch
+4: outlet_fluid is patch
+5: walls_fluid is patch
+6: walls_heater is patch
+7: base_fins is patch
+
+Constructing mesh with non-default patches of size:
+    inlet_fluid	35
+    outlet_fluid	26
+    walls_fluid	1291
+    walls_heater	200
+    base_fins	436
+
+Adding cell and face zones
+ Cell Zone fluid 	21958
+ Cell Zone heater 	745
+ Cell Zone fins 	3054
+
+End
+
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  10
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 10-c4cf895ad8fa
+Exec   : transformPoints scale=(0.001 0.001 0.001)
+Date   : Nov 10 2023
+Time   : 00:25:42
+Host   : "alexesn"
+PID    : 18084
+I/O    : uncollated
+Case   : /home/alexesn/FOAM_project/heatExchanger/all_auto/case_5_0_0
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Writing points into directory "/home/alexesn/FOAM_project/heatExchanger/all_auto/case_5_0_0/constant/polyMesh"
+
+End
+
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  10
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 10-c4cf895ad8fa
+Exec   : splitMeshRegions -cellZones -overwrite
+Date   : Nov 10 2023
+Time   : 00:25:42
+Host   : "alexesn"
+PID    : 18085
+I/O    : uncollated
+Case   : /home/alexesn/FOAM_project/heatExchanger/all_auto/case_5_0_0
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Creating single patch per inter-region interface.
+
+Trying to match regions to existing cell zones.
+
+
+Number of regions:3
+
+Writing region per cell file (for manual decomposition) to "constant/cellToRegion"
+
+Writing region per cell as volScalarField to "0/cellToRegion"
+
+Region	Cells
+------	-----
+0	745
+1	3054
+2	21958
+
+Region	Zone	Name
+------	----	----
+0	1	heater
+1	2	fins
+2	0	fluid
+
+Sizes of interfaces between regions:
+
+Interface	Region	Region	Faces
+---------	------	------	-----
+0		0	1	52
+1		1	2	1370
+
+Reading geometric fields
+
+Reading volScalarField cellToRegion
+
+
+Adding patches
+
+
+Adding patches
+
+For interface between region heater and fins added patches
+    5	heater_to_fins
+    6	fins_to_heater
+For interface between region fins and fluid added patches
+    7	fins_to_fluid
+    8	fluid_to_fins
+
+Region 0
+-------- 
+Creating mesh for region 0 heater
+Testing:"/home/alexesn/FOAM_project/heatExchanger/all_auto/case_5_0_0/system/heater/fvSchemes"
+Mapping fields
+Mapping field cellToRegion
+Deleting empty patches
+Writing new mesh
+Writing addressing to base mesh
+Writing map pointRegionAddressing from region0 points back to base mesh.
+Writing map faceRegionAddressing from region0 faces back to base mesh.
+Writing map cellRegionAddressing from region0 cells back to base mesh.
+
+Region 1
+-------- 
+Creating mesh for region 1 fins
+Testing:"/home/alexesn/FOAM_project/heatExchanger/all_auto/case_5_0_0/system/fins/fvSchemes"
+Mapping fields
+Mapping field cellToRegion
+Deleting empty patches
+Writing new mesh
+Writing addressing to base mesh
+Writing map pointRegionAddressing from region1 points back to base mesh.
+Writing map faceRegionAddressing from region1 faces back to base mesh.
+Writing map cellRegionAddressing from region1 cells back to base mesh.
+
+Region 2
+-------- 
+Creating mesh for region 2 fluid
+Testing:"/home/alexesn/FOAM_project/heatExchanger/all_auto/case_5_0_0/system/fluid/fvSchemes"
+Mapping fields
+Mapping field cellToRegion
+Deleting empty patches
+Writing new mesh
+Writing addressing to base mesh
+Writing map pointRegionAddressing from region2 points back to base mesh.
+Writing map faceRegionAddressing from region2 faces back to base mesh.
+Writing map cellRegionAddressing from region2 cells back to base mesh.
+End
+
+Created 'case_5_0_0{fluid}.OpenFOAM'
+Created 'case_5_0_0{heater}.OpenFOAM'
+Created 'case_5_0_0{fins}.OpenFOAM'
