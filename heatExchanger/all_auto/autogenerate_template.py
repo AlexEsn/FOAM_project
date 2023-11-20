@@ -57,7 +57,7 @@ Cylinder_3 = geompy.MakeTranslation(Cylinder_3, shift_third_cylinder, 0, 0)
 
 
 fins = geompy.MakeFuseList(
-[substrate, Cylinder_1, Cylinder_2, Cylinder_3], False, False)
+    [substrate, Cylinder_1, Cylinder_2, Cylinder_3], False, False)
 
 # fins = geompy.MakeFuseList(
 #     [substrate, Cylinder_1, Cylinder_2], False, False)
@@ -183,7 +183,7 @@ smesh = smeshBuilder.New()
 
 NETGEN_3D_Parameters_1 = smesh.CreateHypothesis(
     'NETGEN_Parameters', 'NETGENEngine')
-NETGEN_3D_Parameters_1.SetMaxSize(20)
+NETGEN_3D_Parameters_1.SetMaxSize(5)
 NETGEN_3D_Parameters_1.SetMinSize(1)
 NETGEN_3D_Parameters_1.SetSecondOrder(0)
 NETGEN_3D_Parameters_1.SetOptimize(1)
@@ -203,7 +203,7 @@ except:
     print('ExportUNV() failed. Invalid file name?')
 NETGEN_3D_Parameters_2 = smesh.CreateHypothesis(
     'NETGEN_Parameters', 'NETGENEngine')
-NETGEN_3D_Parameters_2.SetMaxSize(20)
+NETGEN_3D_Parameters_2.SetMaxSize(5)
 NETGEN_3D_Parameters_2.SetMinSize(1)
 NETGEN_3D_Parameters_2.SetSecondOrder(0)
 NETGEN_3D_Parameters_2.SetOptimize(1)

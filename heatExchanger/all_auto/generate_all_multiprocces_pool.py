@@ -5,8 +5,8 @@ from multiprocessing import Manager, Pool
 
 # Параметры
 min_value = 0
-step = 5
-max_value = 1
+step = 1
+max_value = 20
 
 salome_executable = "~/SALOME-9.11.0-native-UB20.04-SRC/binsalome"
 base_path = '.'
@@ -36,7 +36,7 @@ def run_simulation(shift_first_cylinder, shift_second_cylinder, shift_third_cyli
 
     print("Запуск расчета")
 
-    bash_script_path = f"./case{new_name}/Allmesh >> mesh.log"
+    bash_script_path = f"./case{new_name}/Allmesh >> /dev/null"
 
     try:
         result = subprocess.check_output(
@@ -48,7 +48,7 @@ def run_simulation(shift_first_cylinder, shift_second_cylinder, shift_third_cyli
     except Exception as e:
         print(f"Произошла неожиданная ошибка: {e}")
 
-    bash_script_path = f"./case{new_name}/Allrun >> openfoam.log"
+    bash_script_path = f"./case{new_name}/Allrun >> /dev/null"
 
     try:
         result = subprocess.check_output(
