@@ -45,7 +45,7 @@ heater = geompy.MakeBoxDXDYDZ(10, 10, 10)
 substrate = geompy.MakeBoxDXDYDZ(30, 30, 2)
 geompy.TranslateDXDYDZ(substrate, -10, -10, 10)
 
-Cylinder_1 = geompy.MakeCylinderRH(5, 10)
+Cylinder_1 = geompy.MakeCylinderRH(2.5, 10)
 geompy.TranslateDXDYDZ(Cylinder_1, -5, -5, 12)
 
 Cylinder_2 = geompy.MakeTranslation(Cylinder_1, 0, 10, 0)

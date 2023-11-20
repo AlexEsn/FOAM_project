@@ -89,12 +89,12 @@ if __name__ == "__main__":
         # Создаем список с возможными значениями
         values = [i for i in range(min_value, max_value + step, step)]
         # Получаем все возможные комбинации с повторениями из двух чисел
-        combinations_with_repeats = list(product(values, repeat=3))
+        combinations_with_repeats = list(product(values, repeat=2))
 
         # Создаем и запускаем отдельный процесс для каждой комбинации
         with Pool(core_num) as pool:
-            pool.starmap(run_simulation, [(s1, s2, s3, all_data)
-                         for s1, s2, s3 in combinations_with_repeats])
+            pool.starmap(run_simulation, [(s1, s2, 0, all_data)
+                         for s1, s2 in combinations_with_repeats])
             pool.join
 
         # Выводим результаты из разделяемого словаря
