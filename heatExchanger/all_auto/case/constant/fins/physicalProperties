@@ -27,24 +27,24 @@ thermoType
 
 mixture
 {
-    // Aluminium
+    // Copper
 
     specie
     {
-        molWeight       27;
+        molWeight       64;
     }
     equationOfState
     {
-        rho             2700;
+        rho             8900;
     }
     transport
     {
-        kappa           200;
+        kappa           400;
     }
     thermodynamics
     {
         Hf              0;
-        Cv              900;
+        Cv              385;
     }
 }
 

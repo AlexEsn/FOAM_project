@@ -5,22 +5,23 @@
     \\  /    A nd           | Version:  10
      \\/     M anipulation  |
 \*---------------------------------------------------------------------------*/
-FoamFile
-{
-    format      ascii;
-    class       dictionary;
-    location    "constant/heater";
-    object      fvModels;
+FoamFile {
+    format ascii;
+    class dictionary;
+    location "constant/heater";
+    object fvModels;
 }
+
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-energySource
-{
-    type            heatSource;
+energySource {
+    type heatSource;
 
-    selectionMode   all;
+    selectionMode all;
 
-    q               2.94e7;
+    // W = 56.64 W, cube of side 25*25*5 mm
+    // W/m^3 == kg/m/s^3
+    q 1.0e7;
 }
 
 // ************************************************************************* //

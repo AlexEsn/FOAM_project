@@ -1,7 +1,6 @@
 import subprocess
 import shutil
 from itertools import product
-from multiprocessing import Manager, Pool
 
 # Параметры
 min_value = 0
@@ -10,12 +9,11 @@ max_value = 20
 
 salome_executable = "~/SALOME-9.11.0-native-UB20.04-SRC/binsalome"
 base_path = '.'
-python_script = base_path + "/autogenerate_template_big_heater.py"
-core_num = 6
+python_script = base_path + "/autogenerate_template.py"
 
 
-def run_simulation(shift_first_cylinder, shift_second_cylinder, shift_third_cylinder, all_data):
-    new_name = f"_{shift_first_cylinder}_{shift_second_cylinder}_{shift_third_cylinder}"
+def run_simulation(shift_first_cylinder, shift_second_cylinder):
+    new_name = f"_{shift_first_cylinder}_{shift_second_cylinder}_0"
 
     source_folder = f"{base_path}/case"
     destination_folder = f"{base_path}/case{new_name}"
@@ -26,7 +24,7 @@ def run_simulation(shift_first_cylinder, shift_second_cylinder, shift_third_cyli
         print(
             f"Папка {source_folder} успешно скопирована в {destination_folder}")
         # Команда для запуска SALOME и выполнения питон-скрипта внутри SALOME
-        command = f'{salome_executable} -t python {python_script} args:{shift_first_cylinder},{shift_second_cylinder},{shift_third_cylinder},{destination_folder}/mesh.unv'
+        command = f'{salome_executable} -t python {python_script} args:{shift_first_cylinder},{shift_second_cylinder},0,{destination_folder}/mesh.unv'
         print(command)
         print("Генерация сетки")
         # Запуск команды с помощью subprocess
@@ -69,8 +67,8 @@ def run_simulation(shift_first_cylinder, shift_second_cylinder, shift_third_cyli
                         break
                 print(f"Последнее значение: {last_value:.6e}")
 
-                # Добавляем значение в разделяемый словарь
-                all_data[new_name] = last_value
+                # Выводим результаты
+                print(f"Ключ: {new_name}, Значение: {last_value:.6e}")
         except FileNotFoundError:
             print(f"Файл '{file_path}' не найден.")
         except Exception as e:
@@ -82,21 +80,11 @@ def run_simulation(shift_first_cylinder, shift_second_cylinder, shift_third_cyli
 
 
 if __name__ == "__main__":
-    # Создаем разделяемый словарь для сбора результатов от каждого процесса
-    with Manager() as manager:
-        all_data = manager.dict()
+    # Создаем список с возможными значениями
+    values = [i for i in range(min_value, max_value + step, step)]
+    # Получаем все возможные комбинации с повторениями из двух чисел
+    combinations_with_repeats = list(product(values, repeat=2))
 
-        # Создаем список с возможными значениями
-        values = [i for i in range(min_value, max_value + step, step)]
-        # Получаем все возможные комбинации с повторениями из двух чисел
-        combinations_with_repeats = list(product(values, repeat=2))
-
-        # Создаем и запускаем отдельный процесс для каждой комбинации
-        with Pool(core_num) as pool:
-            pool.starmap(run_simulation, [(s1, s2, 0, all_data)
-                         for s1, s2 in combinations_with_repeats])
-            pool.join
-
-        # Выводим результаты из разделяемого словаря
-        print(all_data)
-        print(len(all_data))
+    # Создаем и запускаем отдельный процесс для каждой комбинации
+    for s1, s2 in combinations_with_repeats:
+        run_simulation(s1, s2)

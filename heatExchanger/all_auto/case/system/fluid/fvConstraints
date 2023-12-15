@@ -5,21 +5,20 @@
     \\  /    A nd           | Version:  10
      \\/     M anipulation  |
 \*---------------------------------------------------------------------------*/
-FoamFile
-{
-    format      ascii;
-    class       dictionary;
-    location    "system";
-    object      fvConstraints;
+FoamFile {
+    format ascii;
+    class dictionary;
+    location "system";
+    object fvConstraints;
 }
+
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-    limitT
-    {
-		type            limitTemperature;
-        selectionMode   all;
-        min             270;
-        max             350;
-    }
+limitT {
+    type limitTemperature;
+    selectionMode all;
+    min 50;
+    max 250;
+}
 
 // ************************************************************************* //

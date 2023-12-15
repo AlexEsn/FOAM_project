@@ -37,16 +37,17 @@ OX = geompy.MakeVectorDXDYDZ(1, 0, 0)
 OY = geompy.MakeVectorDXDYDZ(0, 1, 0)
 OZ = geompy.MakeVectorDXDYDZ(0, 0, 1)
 
-duct = geompy.MakeBoxDXDYDZ(300, 50, 15)
+duct = geompy.MakeBoxDXDYDZ(300, 50, 22)
 geompy.TranslateDXDYDZ(duct, -150, -20, 10)
 
-heater = geompy.MakeBoxDXDYDZ(10, 10, 10)
+heater = geompy.MakeBoxDXDYDZ(25, 25, 2.5)
+geompy.TranslateDXDYDZ(heater, -7.5, -7.5, 7.5)
 
-substrate = geompy.MakeBoxDXDYDZ(30, 30, 2)
+substrate = geompy.MakeBoxDXDYDZ(30, 30, 5)
 geompy.TranslateDXDYDZ(substrate, -10, -10, 10)
 
-Cylinder_1 = geompy.MakeCylinderRH(2.5, 10)
-geompy.TranslateDXDYDZ(Cylinder_1, -5, -5, 12)
+Cylinder_1 = geompy.MakeCylinderRH(2.5, 15)
+geompy.TranslateDXDYDZ(Cylinder_1, -5, -5, 15)
 
 Cylinder_2 = geompy.MakeTranslation(Cylinder_1, 0, 10, 0)
 Cylinder_3 = geompy.MakeTranslation(Cylinder_2, 0, 10, 0)
