@@ -1,6 +1,13 @@
-\babel@toc {russian}{}
-\contentsline {section}{\numberline {1}Введение}{4}%
-\contentsline {section}{\numberline {2}Основная часть}{5}%
-\contentsline {section}{\numberline {3}Заключение}{16}%
-\contentsline {section}{\numberline {4}Приложение А}{18}%
-\contentsline {section}{\numberline {5}Приложение Б}{19}%
+\babel@toc {russian}{}\relax 
+\contentsline {section}{\numberline {1}Введение}{4}{}%
+\contentsline {section}{\numberline {2}Основная часть}{5}{}%
+\contentsline {section}{\numberline {3}Проблема с Генерацией Сетки в SALOME}{15}{}%
+\contentsline {subsection}{\numberline {3.1}\texttt {SubShapeAllIDs}}{16}{}%
+\contentsline {subsection}{\numberline {3.2}\texttt {GetShapesOnBoxIDs}}{16}{}%
+\contentsline {subsection}{\numberline {3.3}\texttt {GetShapesOnPlaneWithLocationIDs}}{16}{}%
+\contentsline {section}{\numberline {4}Автоматизированный процесс генерации сетки и расчета}{17}{}%
+\contentsline {section}{\numberline {5}Особенности Фиксации и Движения Цилиндров}{17}{}%
+\contentsline {section}{\numberline {6}Первые Результаты и Интерполяция Поверхности}{18}{}%
+\contentsline {section}{\numberline {7}Заключение}{20}{}%
+\contentsline {section}{\numberline {8}Приложение А}{22}{}%
+\contentsline {section}{\numberline {9}Приложение Б}{23}{}%

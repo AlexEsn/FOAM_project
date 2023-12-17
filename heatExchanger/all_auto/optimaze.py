@@ -9,7 +9,7 @@ max_value = 20
 
 salome_executable = "~/SALOME-9.11.0-native-UB20.04-SRC/binsalome"
 base_path = '.'
-python_script = base_path + "/autogenerate_template.py"
+python_script = base_path + "/autogenerate_template_big_celinder.py"
 
 all_data = {}
 
