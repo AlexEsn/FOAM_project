@@ -1,0 +1,5 @@
+\babel@toc {russian}{}\relax 
+\beamer@sectionintoc {1}{Введение}{3}{0}{1}
+\beamer@sectionintoc {2}{Основные моменты}{4}{0}{2}
+\beamer@sectionintoc {3}{Преимущества градиентных методов}{5}{0}{3}
+\beamer@sectionintoc {4}{Заключение}{6}{0}{4}
