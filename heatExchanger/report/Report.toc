@@ -1,22 +1,18 @@
-\babel@toc {russian}{}\relax 
-\contentsline {section}{\numberline {1}Введение}{4}{}%
-\contentsline {section}{\numberline {2}Данные предыдущего этапа исследования}{5}{}%
-\contentsline {section}{\numberline {3}Проблема с автоматической генерацией сетки в SALOME}{15}{}%
-\contentsline {subsection}{\numberline {3.1}\texttt {SubShapeAllIDs}}{16}{}%
-\contentsline {subsection}{\numberline {3.2}\texttt {GetShapesOnBoxIDs}}{16}{}%
-\contentsline {subsection}{\numberline {3.3}\texttt {GetShapesOnPlaneWithLocationIDs}}{16}{}%
-\contentsline {section}{\numberline {4}Автоматизированный процесс генерации сетки и расчета}{17}{}%
-\contentsline {section}{\numberline {5}Особенности фиксации и движения цилиндров}{17}{}%
-\contentsline {section}{\numberline {6}Первые результаты}{18}{}%
-\contentsline {section}{\numberline {7}Оптимизация процесса расчета}{19}{}%
-\contentsline {section}{\numberline {8}Увеличение количества точек для анализа}{20}{}%
-\contentsline {section}{\numberline {9}Первые результаты и наблюдения}{21}{}%
-\contentsline {section}{\numberline {10}Эксперименты с геометрией и анализ результатов}{22}{}%
-\contentsline {section}{\numberline {11}Оптимизация расчетной сетки}{24}{}%
-\contentsline {section}{\numberline {12}Модификация геометрии и уменьшение воздуховода}{24}{}%
-\contentsline {section}{\numberline {13}Анализ реальной системы и изменения параметров}{26}{}%
-\contentsline {section}{\numberline {14}Применение эволюционного алгоритма в оптимизации}{27}{}%
-\contentsline {section}{\numberline {15}Использование градиентного метода}{28}{}%
-\contentsline {section}{\numberline {16}Заключение}{30}{}%
-\contentsline {section}{\numberline {17}Приложение А}{33}{}%
-\contentsline {section}{\numberline {18}Приложение Б}{34}{}%
+\babel@toc {russian}{}
+\contentsline {section}{\numberline {1}Данные предыдущего этапа исследования}{4}%
+\contentsline {section}{\numberline {2}Проблема с автоматической генерацией сетки в SALOME}{14}%
+\contentsline {subsection}{\numberline {2.1}\texttt {SubShapeAllIDs}}{15}%
+\contentsline {subsection}{\numberline {2.2}\texttt {GetShapesOnBoxIDs}}{15}%
+\contentsline {subsection}{\numberline {2.3}\texttt {GetShapesOnPlaneWithLocationIDs}}{15}%
+\contentsline {section}{\numberline {3}Автоматизированный процесс генерации сетки и расчета}{16}%
+\contentsline {section}{\numberline {4}Особенности фиксации и движения цилиндров}{16}%
+\contentsline {section}{\numberline {5}Первые результаты}{17}%
+\contentsline {section}{\numberline {6}Оптимизация процесса расчета}{18}%
+\contentsline {section}{\numberline {7}Увеличение количества точек для анализа}{19}%
+\contentsline {section}{\numberline {8}Первые результаты и наблюдения}{20}%
+\contentsline {section}{\numberline {9}Эксперименты с геометрией и анализ результатов}{21}%
+\contentsline {section}{\numberline {10}Оптимизация расчетной сетки}{23}%
+\contentsline {section}{\numberline {11}Модификация геометрии и уменьшение воздуховода}{23}%
+\contentsline {section}{\numberline {12}Анализ реальной системы и изменения параметров}{25}%
+\contentsline {section}{\numberline {13}Применение эволюционного алгоритма в оптимизации}{26}%
+\contentsline {section}{\numberline {14}Использование градиентного метода}{27}%

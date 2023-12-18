@@ -22,4 +22,33 @@ Conjugate heat transfer {CFD} tutorial for plate fin heat sink.
 {OpenFOAM}: {User} {Guide}: {chtMultiRegionFoam}. URL:
   https://www.openfoam.com/documentation/guides/latest/doc/guide-applications-solvers-heat-transfer-chtMultiRegionFoam.html.{}
 
+\bibitem{salome_doc}
+\selectlanguageifdefined{russian}
+Developer’s {Documentation} — {SALOME} {version} 9.11 documentation. URL:
+  https://docs.salome-platform.org/latest/main/tui.html.{}
+
+\bibitem{evolution}
+\selectlanguageifdefined{russian}
+Пантелеев~Андрей~Владимирович. Применение
+  эволюционных методов глобальной
+  оптимизации в задачах оптимального
+  управления детерминированными
+  системами.{}
+
+\bibitem{Chernyshev2007}
+\selectlanguageifdefined{russian}
+Чернышев~Олег и~Борисов~Аркадий.
+  Сравнительный анализ решения задач
+  оптимизации генетическими и градиентными
+  методами~// Transport and Telecommunication.
+\newblock Рига, Латвия, 2007.
+\newblock Т.~8, {№}~1.
+\newblock {С.}~40--52.{}
+
+\bibitem{limited_BFGS}
+\selectlanguageifdefined{russian}
+Liu~Dong~C., Nocedal~Jorge. On the limited memory {BFGS} method for large scale
+  optimization~// Mathematical Programming. URL:
+  https://doi.org/10.1007/BF01589116.{}
+
 \end{thebibliography}
