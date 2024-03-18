@@ -1,7 +1,10 @@
 import subprocess
 import shutil
-from scipy.optimize import differential_evolution
+import random
+from deap import base, creator, tools, algorithms
 import numpy as np
+import multiprocessing
+import random
 
 # Параметры
 min_value = 0
@@ -9,14 +12,14 @@ max_value = 20
 
 salome_executable = "~/SALOME-9.11.0-native-UB20.04-SRC/binsalome"
 base_path = '.'
-python_script = base_path + "/autogenerate_template_big_celinder.py"
+python_script = base_path + "/autogenerate_with_block.py"
 
 all_data = {}
 
 
-def objective_function(shifts):
-    shift_first_cylinder, shift_second_cylinder = map(int, shifts)
-    new_name = f"_{shift_first_cylinder}_{shift_second_cylinder}_0"
+def objective_function(blocks):
+    blocks_name = '_'.join(map(str, blocks))
+    new_name = f"_{blocks_name}"
 
     source_folder = f"{base_path}/case"
     destination_folder = f"{base_path}/case{new_name}"
@@ -28,7 +31,8 @@ def objective_function(shifts):
             f"Папка {source_folder} успешно скопирована в {destination_folder}")
 
         # Команда для запуска SALOME и выполнения питон-скрипта внутри SALOME
-        command = f'{salome_executable} -t python {python_script} args:{shift_first_cylinder},{shift_second_cylinder},0,{destination_folder}/mesh.unv'
+        args = ','.join(map(str, blocks))
+        command = f'{salome_executable} -t python {python_script} args:{destination_folder}/mesh.unv,{args}'
         print(command)
         print("Генерация сетки")
 
@@ -41,7 +45,8 @@ def objective_function(shifts):
         # Запуск расчета сетки
         subprocess.check_output(bash_script_path, shell=True, text=True)
 
-        bash_script_path = f"./case{new_name}/Allrun >> /dev/null"
+        # bash_script_path = f"./case{new_name}/Allrun >> /dev/null"
+        bash_script_path = f"./case{new_name}/Allrun-parallel >> /dev/null"
 
         # Запуск расчета кейса
         subprocess.check_output(bash_script_path, shell=True, text=True)
@@ -64,19 +69,53 @@ def objective_function(shifts):
             print(f"Последнее значение: {last_value:.6e}")
         all_data[new_name] = last_value
 
-        return last_value
+        return (last_value, )  # Возвращаем кортеж
     except Exception as e:
         print(f"Произошла ошибка: {str(e)}")
 
 
+def evaluate_parallel(individual):
+    return objective_function(individual),
+
+
+# Создание классов для определения типа оптимизации
+creator.create("FitnessMin", base.Fitness, weights=(-1.0, ))
+creator.create("Individual", list, fitness=creator.FitnessMin)
+
+# Определение функций для работы с особями и популяцией
+toolbox = base.Toolbox()
+toolbox.register("attr_bool", random.randint, 0, 1)
+toolbox.register("individual", tools.initRepeat,
+                 creator.Individual, toolbox.attr_bool, n=36)
+toolbox.register("population", tools.initRepeat, list, toolbox.individual)
+toolbox.register("mate", tools.cxTwoPoint)
+toolbox.register("mutate", tools.mutFlipBit, indpb=0.05)
+toolbox.register("select", tools.selTournament, tournsize=3)
+toolbox.register("evaluate", objective_function)
+
 if __name__ == "__main__":
-    # Определение ограничений на переменные (целые значения)
-    bounds = [(min_value, max_value), (min_value, max_value)]
+    # Process Pool
+    cpu_count = multiprocessing.cpu_count()
+    print(f"CPU count: {cpu_count}")
+    pool = multiprocessing.Pool(cpu_count)
+    toolbox.register("map", pool.map)
 
-    # Оптимизация с использованием differential_evolution
-    result = differential_evolution(objective_function, bounds)
+    # Инициализация популяции
+    population = toolbox.population(n=10)
 
-    print(all_data)
+    # Определение параметров эволюционного алгоритма
+    cxpb, mutpb, ngen = 0.7, 0.2, 10
+
+    # Запуск эволюционного алгоритма с использованием пула процессов
+    algorithms.eaSimple(population, toolbox, cxpb, mutpb, ngen,
+                        stats=None, halloffame=None, verbose=True)
+
+    # Закрытие пула процессов после выполнения
+    pool.close()
+    pool.join()
+
     # Вывод результатов оптимизации
-    print("Оптимальные сдвиги:", result.x)
-    print("Минимальное значение функции:", result.fun)
+    best_individual = tools.selBest(population, k=1)[0]
+    print("Оптимальные сдвиги:", best_individual)
+    print("Минимальное значение функции:", best_individual.fitness.values[0])
+    print(all_data)

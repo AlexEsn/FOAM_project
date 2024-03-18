@@ -22,13 +22,13 @@ startTime       0;
 
 stopAt          endTime;
 
-endTime         4000;
+endTime         30000;
 
 deltaT          1;
 
 writeControl    adjustableRunTime;
 
-writeInterval   100;
+writeInterval   1000;
 
 purgeWrite      0;
 
@@ -44,11 +44,9 @@ timePrecision   6;
 
 runTimeModifiable true;
 
-//maxCo           1.0;
+numberOfSubdomains 3;
 
-//maxDi           10.0;
-
-//adjustTimeStep  yes;
+decomposeMethod simple;
 
 functions
 {

@@ -15,8 +15,8 @@ FoamFile
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 dimensions      [ 0 1 -1 0 0 0 0 ];
-
-internalField   uniform (3 0 0);
+//              400 л в час
+internalField   uniform (0.04 0 0);
 
 boundaryField
 {
@@ -25,7 +25,7 @@ boundaryField
     inlet_fluid
     {
         type            fixedValue;
-        value           uniform (3 0 0);
+        value           uniform (0.04 0 0);
     }
     
     outlet_fluid

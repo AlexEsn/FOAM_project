@@ -2,20 +2,22 @@ import subprocess
 import shutil
 from itertools import product
 from multiprocessing import Manager, Pool
+import random
 
 # Параметры
 min_value = 0
-step = 2
+step = 5
 max_value = 20
 
 salome_executable = "~/SALOME-9.11.0-native-UB20.04-SRC/binsalome"
 base_path = '.'
-python_script = base_path + "/autogenerate_template_big_heater.py"
+python_script = base_path + "/autogenerate_with_block.py"
 core_num = 6
 
 
-def run_simulation(shift_first_cylinder, shift_second_cylinder, shift_third_cylinder, all_data):
-    new_name = f"_{shift_first_cylinder}_{shift_second_cylinder}_{shift_third_cylinder}"
+def run_simulation(blocks, all_data):
+    blocks_name = '_'.join(map(str, blocks))
+    new_name = f"_{blocks_name}"
 
     source_folder = f"{base_path}/case"
     destination_folder = f"{base_path}/case{new_name}"
@@ -26,7 +28,8 @@ def run_simulation(shift_first_cylinder, shift_second_cylinder, shift_third_cyli
         print(
             f"Папка {source_folder} успешно скопирована в {destination_folder}")
         # Команда для запуска SALOME и выполнения питон-скрипта внутри SALOME
-        command = f'{salome_executable} -t python {python_script} args:{shift_first_cylinder},{shift_second_cylinder},{shift_third_cylinder},{destination_folder}/mesh.unv'
+        args = ','.join(map(str, blocks))
+        command = f'{salome_executable} -t python {python_script} args:{destination_folder}/mesh.unv,{args}'
         print(command)
         print("Генерация сетки")
         # Запуск команды с помощью subprocess
@@ -87,15 +90,17 @@ if __name__ == "__main__":
         all_data = manager.dict()
 
         # Создаем список с возможными значениями
-        values = [i for i in range(min_value, max_value + step, step)]
+        # values = [i for i in range(min_value, max_value + step, step)]
         # Получаем все возможные комбинации с повторениями из двух чисел
-        combinations_with_repeats = list(product(values, repeat=2))
+        # combinations_with_repeats = list(product(values, repeat=2))
 
         # Создаем и запускаем отдельный процесс для каждой комбинации
-        with Pool(core_num) as pool:
-            pool.starmap(run_simulation, [(s1, s2, 0, all_data)
-                         for s1, s2 in combinations_with_repeats])
-            pool.join
+        random_array = [random.choice([0, 1]) for _ in range(36)]
+        run_simulation(random_array, all_data=all_data)
+        # with Pool(core_num) as pool:
+        #     pool.starmap(run_simulation, [(s1, s2, 0, all_data)
+        #                  for s1, s2 in combinations_with_repeats])
+        #     pool.join
 
         # Выводим результаты из разделяемого словаря
         print(all_data)
