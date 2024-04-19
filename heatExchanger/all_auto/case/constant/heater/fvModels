@@ -20,6 +20,7 @@ energySource {
     selectionMode all;
 
     // W = 26.64 W
+    // 50 * 50 * 
     // W/m^3 == kg/m/s^3
     q 2.0e5;
 }

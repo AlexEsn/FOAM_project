@@ -35,23 +35,24 @@ def objective_function(blocks):
         command = f'{salome_executable} -t python {python_script} args:{destination_folder}/mesh.unv,{args}'
         print(command)
         print("Генерация сетки")
-
         # Запуск команды с помощью subprocess
         subprocess.run(command, shell=True)
-
+    except Exception as e:
+        print(f"Произошла ошибка при копировании или расчете сетки: {e}")
+    try:
         print("Запуск расчета")
         bash_script_path = f"./case{new_name}/Allmesh >> /dev/null"
 
         # Запуск расчета сетки
         subprocess.check_output(bash_script_path, shell=True, text=True)
 
-        # bash_script_path = f"./case{new_name}/Allrun >> /dev/null"
-        bash_script_path = f"./case{new_name}/Allrun-parallel >> /dev/null"
+        bash_script_path = f"./case{new_name}/Allrun >> /dev/null"
+        # bash_script_path = f"./case{new_name}/Allrun-parallel >> /dev/null"
 
         # Запуск расчета кейса
         subprocess.check_output(bash_script_path, shell=True, text=True)
     except Exception as e:
-        print(f"Произошла ошибка при копировании или расчете сетки: {e}")
+        print(f"Произошла ошибка при расчете: {e}")
 
     try:
 
@@ -95,16 +96,16 @@ toolbox.register("evaluate", objective_function)
 
 if __name__ == "__main__":
     # Process Pool
-    cpu_count = multiprocessing.cpu_count()
+    cpu_count = multiprocessing.cpu_count() // 2
     print(f"CPU count: {cpu_count}")
     pool = multiprocessing.Pool(cpu_count)
     toolbox.register("map", pool.map)
 
     # Инициализация популяции
-    population = toolbox.population(n=10)
+    population = toolbox.population(n=1)
 
     # Определение параметров эволюционного алгоритма
-    cxpb, mutpb, ngen = 0.7, 0.2, 10
+    cxpb, mutpb, ngen = 0.7, 0.2, 100
 
     # Запуск эволюционного алгоритма с использованием пула процессов
     algorithms.eaSimple(population, toolbox, cxpb, mutpb, ngen,
