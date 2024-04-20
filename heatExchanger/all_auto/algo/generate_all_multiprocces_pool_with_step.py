@@ -93,8 +93,8 @@ if __name__ == "__main__":
 
         # Создаем и запускаем отдельный процесс для каждой комбинации
         with Pool(core_num) as pool:
-            pool.starmap(run_simulation, [(s1, s2, 0, all_data)
-                         for s1, s2 in combinations_with_repeats])
+            pool.starmap(run_simulation, [(0, s2, s1, all_data)
+                         for s1, s2 in combinations_with_repeats if s1 == 20 and s2 == 10])
             pool.join
 
         # Выводим результаты из разделяемого словаря

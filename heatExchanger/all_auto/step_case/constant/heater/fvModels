@@ -1,0 +1,27 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  10
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile {
+    format ascii;
+    class dictionary;
+    location "constant/heater";
+    object fvModels;
+}
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+energySource {
+    type heatSource;
+
+    selectionMode all;
+
+    // W = 56.64 W, cube of side 25*25*5 mm
+    // W/m^3 == kg/m/s^3
+    q 1.0e7;
+}
+
+// ************************************************************************* //
