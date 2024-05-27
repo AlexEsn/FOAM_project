@@ -1,0 +1,174 @@
+\documentclass[a4paper,12pt]{extreport}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage[usenames]{color}
+\usepackage{cite}
+\usepackage[english,russian]{babel}
+\usepackage{amssymb,amsmath,latexsym,enumerate}
+\usepackage{array,longtable,lscape}
+\usepackage{indentfirst}
+\usepackage{titlesec}
+\usepackage{graphicx}
+\usepackage{subfigure,epsfig}
+\usepackage{caption2}
+\usepackage[onehalfspacing]{setspace}
+%\usepackage[strict]{changepage}
+\renewcommand{\baselinestretch}{1.5}
+\numberwithin{equation}{chapter}
+\sloppy
+\makeatletter
+\renewcommand{\@biblabel}[1]{#1.}
+\makeatother
+\usepackage{geometry}
+\geometry{left=3cm}
+\geometry{right=1.5cm}
+\geometry{top=2cm}
+\geometry{bottom=2cm}
+\titleformat{\chapter}[block]{\Large\bfseries}{\Large\thechapter.}{0.5em}{}[\vspace*{-1cm}]
+\titleformat{\section}{\large\bfseries}{{\thesection}}{0.5em}{}
+\titleformat{\subsection}[runin]{\normalfont\bfseries}{\thesubsection}{0.5ex}{}
+
+%---END OF HEAD----------------------------------------------------------------------------
+
+\begin{document}
+\renewcommand{\contentsname}{\Large Содержание}
+\renewcommand{\bibname}{\normalfont\Large\bfseries Список литературы}
+\renewcommand{\figurename}{\normalfont Рис.\!}
+
+\begin{titlepage}
+    \begin{center}
+        Министерство науки и высшего образования Российской Федерации \\
+        НАЦИОНАЛЬНЫЙ ИССЛЕДОВАТЕЛЬСКИЙ ЯДЕРНЫЙ УНИВЕРСИТЕТ <<МИФИ>> \\*
+        \hrulefill
+    \end{center}
+
+    \begin{center}
+        ИНСТИТУТ ИНТЕЛЛЕКТУАЛЬНЫХ КИБЕРНЕТИЧЕСКИХ СИСТЕМ\\
+        КАФЕДРА \No 31 ПРИКЛАДНАЯ МАТЕМАТИКА
+    \end{center}
+    \vspace{1cm}
+
+    \begin{flushright}
+        На правах рукописи\\
+        УДК \underline{\textcolor{red}{вписать УДК}}
+    \end{flushright}
+
+    \vspace{0.5em}
+
+    \begin{center}
+        ЕСИС АЛЕКСАНДР ИВАНОВИЧ
+    \end{center}
+
+    \vspace{1em}
+
+    \begin{center}
+        \large ГЕНЕРАТИВНАЯ ОПТИМИЗАЦИЯ ТОПОЛОГИИ КАНАЛЬНОГО РАДИАТОРА
+    \end{center}
+
+    \vspace{2em}
+
+    \begin{center}
+        \large{Выпускная квалификационная работа бакалавра}
+    \end{center}
+
+    \vspace{1em}
+
+    \begin{center}
+        Направление подготовки 01.03.02 <<Прикладная математика и информатика>>
+    \end{center}
+
+    \vspace{2.5em}
+
+    %\begin{adjustwidth}{9.5cm}{}
+    \hfill \begin{minipage}[t]{75mm}
+        Выпускная квалификационная\\
+        работа защищена\\
+        <<\rule[0mm]{0.8cm}{0.1mm}>> \hrulefill \ 20\rule[0mm]{0.4cm}{0.1mm} г.\\
+        Оценка \hrulefill\\
+        Секретарь ГЭК \hrulefill \ Чмыхов М.А.
+    \end{minipage}
+    %\end{adjustwidth}
+
+    \vspace{\fill}
+
+    \begin{center}
+        г. Москва 2024
+    \end{center}
+\end{titlepage}
+
+\newpage
+\thispagestyle{empty}
+\vspace*{3cm}
+\begin{center}
+    \Large \textbf{ПОЯСНИТЕЛЬНАЯ ЗАПИСКА} \\
+    \large {к выпускной квалификационной работе на тему:}
+\end{center}
+
+\vspace{1em}
+
+\begin{center}
+    \large ГЕНЕРАТИВНАЯ ОПТИМИЗАЦИЯ ТОПОЛОГИИ КАНАЛЬНОГО РАДИАТОРА
+\end{center}
+
+\vspace{5em}
+
+\begin{flushleft}
+    \begin{longtable}{lcl}
+        Студент--дипломник   & \underline{\hspace{2.9cm}} & Есис А.И.                                    \\
+                             &                            &                                              \\
+        Руководитель проекта & \underline{\hspace{2.9cm}} & к.ф.-м.н., профессор Чмыхов М.А.             \\
+                             &                            &                                              \\
+        Констультант         & \underline{\hspace{2.9cm}} & д.ф.-м.н., профессор Василевский--Коган В.В. \\
+                             &                            &                                              \\
+        Рецензент            & \underline{\hspace{2.9cm}} & к.ф.-м.н., доцент Пельмень П.П.              \\
+                             &                            &                                              \\
+        Зав.~кафедрой \No 31 & \underline{\hspace{2.9cm}} & д.ф.-м.н., профессор Кудряшов Н.А.
+    \end{longtable}
+\end{flushleft}
+
+%%-----------------------------------------------------------------------------
+
+\tableofcontents
+\setcounter{page}{3}
+
+\chapter*{Введение}
+\addcontentsline{toc}{chapter}{Введение}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+
+\chapter{Постановка задачи}
+\section{Математическая модель процесса}
+
+Равным образом реализация намеченных плановых заданий позволяет выполнять важные задания по разработке системы обучения кадров, соответствует насущным потребностям. Повседневная практика показывает, что постоянный количественный рост и сфера нашей активности требуют определения и уточнения модели развития. Задача организации, в особенности же постоянное информационно-пропагандистское обеспечение нашей деятельности представляет собой интересный эксперимент проверки форм развития. Таким образом постоянный количественный рост и сфера нашей активности в значительной степени обуславливает создание позиций, занимаемых участниками в отношении поставленных задач. Таким образом новая модель организационной деятельности способствует подготовки и реализации позиций, занимаемых участниками в отношении поставленных задач. Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм деятельности способствует подготовки и реализации форм развития.
+
+Задача организации, в особенности же новая модель организационной деятельности обеспечивает широкому кругу (специалистов) участие в формировании систем массового участия. Задача организации, в особенности же консультация с широким активом позволяет выполнять важные задания по разработке позиций, занимаемых участниками в отношении поставленных задач. Задача организации, в особенности же постоянный количественный рост и сфера нашей активности влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.
+
+\begin{equation}
+    E=mc^2
+\end{equation}
+\begin{equation}
+    E=mc^2
+\end{equation}
+
+\chapter*{Приложение А}
+\addcontentsline{toc}{chapter}{Приложение А}
+
+Идейные соображения высшего порядка, а также консультация с широким активом позволяет выполнять важные задания по разработке направлений прогрессивного развития. Идейные соображения высшего порядка, а также новая модель организационной деятельности в значительной степени обуславливает создание новых предложений. Не следует, однако забывать, что постоянное информационно-пропагандистское обеспечение нашей деятельности способствует подготовки и реализации форм развития. Таким образом постоянное информационно-пропагандистское обеспечение нашей деятельности представляет собой интересный эксперимент проверки дальнейших направлений развития. Товарищи! дальнейшее развитие различных форм деятельности способствует подготовки и реализации системы обучения кадров, соответствует насущным потребностям. Повседневная практика показывает, что постоянное информационно-пропагандистское обеспечение нашей деятельности обеспечивает широкому кругу (специалистов) участие в формировании существенных финансовых и административных условий.
+
+
+\begin{thebibliography}{w:99}
+    \addcontentsline{toc}{chapter}{Список литературы}
+
+
+    \bibitem{Wright} \emph{Wright T. W., Ockendon H. A.} Scaling law for the effect of inertia on the formation of adiabatic shear bands // Int. J. Plasticity. -- 1996. -- Vol. 12, No. 7. -- P. 927-934.
+
+    \bibitem{Boyd} \emph{Boyd J. P.} Chebyshev and Fourier Spectral Methods / J. P. Boyd. -New York: Dover Publications, 2001. -- 688 p.
+
+    \bibitem{Camke}\emph{Камке Э.} Справочник по обыкновенным дифференциальным уравнениям / Э. Камке. -- М.: Наука, 1971. -- 576 с.
+
+    \bibitem{Sun} Thermal Analysis for Cryosurgery of Nodular Basal Cell Carcinoma / \emph{F. Sun, G. Aguilar, K. M. Kelly, G.-X. Wang} // ASME International Mechanical Engineering Congress and Exposition November 5--10, 2006, Chicago, Illinois USA.
+
+
+\end{thebibliography}
+\end{document}

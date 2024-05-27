@@ -1,0 +1,26 @@
+\babel@toc {russian}{}
+\contentsline {chapter}{Введение}{4}%
+\contentsline {chapter}{\numberline {1}Постановка задачи}{5}%
+\contentsline {section}{\numberline {1.1}Математическая модель процесса теплообмена}{5}%
+\contentsline {subsection}{\numberline {1.1.1}Уравнение энергии:}{5}%
+\contentsline {subsection}{\numberline {1.1.2}Уравнение состояния:}{5}%
+\contentsline {subsection}{\numberline {1.1.3}Граничные условия:}{5}%
+\contentsline {subsection}{\numberline {1.1.4}Начальные условия:}{7}%
+\contentsline {section}{\numberline {1.2}Постановка задачи оптимизации}{7}%
+\contentsline {section}{\numberline {1.3}Первый этапа исследования}{9}%
+\contentsline {section}{\numberline {1.4}Автоматическая генерация сетки в SALOME}{19}%
+\contentsline {subsection}{\numberline {1.4.1}\texttt {SubShapeAllIDs}}{19}%
+\contentsline {subsection}{\numberline {1.4.2}\texttt {GetShapesOnBoxIDs}}{20}%
+\contentsline {subsection}{\numberline {1.4.3}\texttt {GetShapesOnPlaneWithLocationIDs}}{20}%
+\contentsline {section}{\numberline {1.5}Автоматизированный пайплайн для генерации сетки, расчета и аналитики}{20}%
+\contentsline {section}{\numberline {1.6}Особенности фиксации и движения цилиндров}{21}%
+\contentsline {section}{\numberline {1.7}Первые результаты}{21}%
+\contentsline {section}{\numberline {1.8}Оптимизация процесса расчета}{22}%
+\contentsline {section}{\numberline {1.9}Увеличение количества точек для анализа}{23}%
+\contentsline {section}{\numberline {1.10}Результаты и наблюдения автоматической генерации и переборов вариантов}{23}%
+\contentsline {section}{\numberline {1.11}Эксперименты с геометрией и анализ результатов}{24}%
+\contentsline {section}{\numberline {1.12}Оптимизация расчетной сетки}{26}%
+\contentsline {section}{\numberline {1.13}Модификация геометрии и уменьшение воздуховода}{26}%
+\contentsline {section}{\numberline {1.14}Анализ реальной системы и изменения параметров}{27}%
+\contentsline {section}{\numberline {1.15}Применение эволюционного алгоритма в оптимизации}{28}%
+\contentsline {section}{\numberline {1.16}Использование градиентного метода}{30}%

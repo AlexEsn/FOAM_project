@@ -1,0 +1,69 @@
+\begin{thebibliography}{1}
+\def\selectlanguageifdefined#1{
+\expandafter\ifx\csname date#1\endcsname\relax
+\else\language\csname l@#1\endcsname\fi}
+\ifx\undefined\url\def\url#1{{\small #1}}\else\fi
+\ifx\undefined\BibUrl\def\BibUrl#1{\url{#1}}\else\fi
+\ifx\undefined\BibAnnote\long\def\BibAnnote#1{(#1)}\else\fi
+\ifx\undefined\BibEmph\def\BibEmph#1{\emph{#1}}\else\fi
+
+\bibitem{li_analysis_2022}
+\selectlanguageifdefined{russian}
+Analysis of Heat Dissipation Performance of Battery Liquid Cooling Plate Based
+  on Bionic Structure~/ Bo~Li, Wenhao~Wang, Shaoyi~Bei {[и~др.]}.
+\newblock Т.~14, {№}~9.
+\newblock {С.}~5541. URL:  https://www.mdpi.com/2071-1050/14/9/5541.{}
+
+\bibitem{wOfDocSalome}
+\selectlanguageifdefined{russian}
+Introduction to Salome Platform — GUI 9.5.0 documentation. URL:
+  https://docs.salome-platform.org/latest/gui/GUI/introduction.html.{}
+
+\bibitem{wChtMultiRegionFoam}
+\selectlanguageifdefined{russian}
+{OpenFOAM}: {User} {Guide}: {chtMultiRegionFoam}. URL:
+  https://www.openfoam.com/documentation/guides/latest/doc/guide-applications-solvers-heat-transfer-chtMultiRegionFoam.html.{}
+
+\bibitem{mekki_genetic_2021}
+\selectlanguageifdefined{russian}
+Mekki~Bashir~S., Langer~Joshua, Lynch~Stephen. Genetic algorithm based topology
+  optimization of heat exchanger fins used in aerospace applications.
+\newblock Т. 170.
+\newblock {С.}~121002. URL:
+  https://linkinghub.elsevier.com/retrieve/pii/S0017931021001058.{}
+
+\bibitem{limited_BFGS}
+\selectlanguageifdefined{russian}
+Liu~Dong~C., Nocedal~Jorge. On the limited memory {BFGS} method for large scale
+  optimization~// Mathematical Programming. URL:
+  https://doi.org/10.1007/BF01589116.{}
+
+\bibitem{Chernyshev2007}
+\selectlanguageifdefined{russian}
+Чернышев~Олег и~Борисов~Аркадий.
+  Сравнительный анализ решения задач
+  оптимизации генетическими и градиентными
+  методами~// Transport and Telecommunication.
+\newblock Рига, Латвия, 2007.
+\newblock Т.~8, {№}~1.
+\newblock {С.}~40--52.{}
+
+\bibitem{aHeatTranserf}
+\selectlanguageifdefined{russian}
+Conjugate heat transfer {CFD} tutorial for plate fin heat sink.
+\newblock 2020. URL:  http://rgdoi.net/10.13140/RG.2.2.26603.36640.{}
+
+\bibitem{salome_doc}
+\selectlanguageifdefined{russian}
+Developer’s {Documentation} — {SALOME} {version} 9.11 documentation. URL:
+  https://docs.salome-platform.org/latest/main/tui.html.{}
+
+\bibitem{evolution}
+\selectlanguageifdefined{russian}
+Пантелеев~Андрей~Владимирович. Применение
+  эволюционных методов глобальной
+  оптимизации в задачах оптимального
+  управления детерминированными
+  системами.{}
+
+\end{thebibliography}

@@ -1,18 +1,24 @@
 \babel@toc {russian}{}
-\contentsline {section}{\numberline {1}Данные предыдущего этапа исследования}{8}%
-\contentsline {section}{\numberline {2}Проблема с автоматической генерацией сетки в SALOME}{18}%
-\contentsline {subsection}{\numberline {2.1}\texttt {SubShapeAllIDs}}{19}%
-\contentsline {subsection}{\numberline {2.2}\texttt {GetShapesOnBoxIDs}}{19}%
-\contentsline {subsection}{\numberline {2.3}\texttt {GetShapesOnPlaneWithLocationIDs}}{19}%
-\contentsline {section}{\numberline {3}Автоматизированный процесс генерации сетки и расчета}{20}%
-\contentsline {section}{\numberline {4}Особенности фиксации и движения цилиндров}{20}%
-\contentsline {section}{\numberline {5}Первые результаты}{21}%
-\contentsline {section}{\numberline {6}Оптимизация процесса расчета}{22}%
-\contentsline {section}{\numberline {7}Увеличение количества точек для анализа}{23}%
-\contentsline {section}{\numberline {8}Первые результаты и наблюдения}{24}%
-\contentsline {section}{\numberline {9}Эксперименты с геометрией и анализ результатов}{25}%
-\contentsline {section}{\numberline {10}Оптимизация расчетной сетки}{27}%
-\contentsline {section}{\numberline {11}Модификация геометрии и уменьшение воздуховода}{27}%
-\contentsline {section}{\numberline {12}Анализ реальной системы и изменения параметров}{29}%
-\contentsline {section}{\numberline {13}Применение эволюционного алгоритма в оптимизации}{30}%
-\contentsline {section}{\numberline {14}Использование градиентного метода}{31}%
+\contentsline {section}{\numberline {1}Постановка задачи теплообмена}{4}%
+\contentsline {subsection}{\numberline {1.1}Уравнение энергии:}{4}%
+\contentsline {subsection}{\numberline {1.2}Уравнение состояния:}{4}%
+\contentsline {subsection}{\numberline {1.3}Граничные условия:}{4}%
+\contentsline {subsection}{\numberline {1.4}Начальные условия:}{5}%
+\contentsline {section}{\numberline {2}Постановка задачи оптимизации}{6}%
+\contentsline {section}{\numberline {3}Данные предыдущего этапа исследования}{8}%
+\contentsline {section}{\numberline {4}Проблема с автоматической генерацией сетки в SALOME}{18}%
+\contentsline {subsection}{\numberline {4.1}\texttt {SubShapeAllIDs}}{19}%
+\contentsline {subsection}{\numberline {4.2}\texttt {GetShapesOnBoxIDs}}{19}%
+\contentsline {subsection}{\numberline {4.3}\texttt {GetShapesOnPlaneWithLocationIDs}}{19}%
+\contentsline {section}{\numberline {5}Автоматизированный процесс генерации сетки и расчета}{20}%
+\contentsline {section}{\numberline {6}Особенности фиксации и движения цилиндров}{20}%
+\contentsline {section}{\numberline {7}Первые результаты}{21}%
+\contentsline {section}{\numberline {8}Оптимизация процесса расчета}{22}%
+\contentsline {section}{\numberline {9}Увеличение количества точек для анализа}{23}%
+\contentsline {section}{\numberline {10}Первые результаты и наблюдения}{24}%
+\contentsline {section}{\numberline {11}Эксперименты с геометрией и анализ результатов}{25}%
+\contentsline {section}{\numberline {12}Оптимизация расчетной сетки}{27}%
+\contentsline {section}{\numberline {13}Модификация геометрии и уменьшение воздуховода}{27}%
+\contentsline {section}{\numberline {14}Анализ реальной системы и изменения параметров}{29}%
+\contentsline {section}{\numberline {15}Применение эволюционного алгоритма в оптимизации}{30}%
+\contentsline {section}{\numberline {16}Использование градиентного метода}{31}%

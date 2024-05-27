@@ -1,0 +1,6 @@
+\babel@toc {russian}{}
+\contentsline {chapter}{Введение}{4}%
+\contentsline {chapter}{\numberline {1}Постановка задачи}{5}%
+\contentsline {section}{\numberline {1.1}Математическая модель процесса}{5}%
+\contentsline {chapter}{Приложение А}{6}%
+\contentsline {chapter}{Список литературы}{7}%

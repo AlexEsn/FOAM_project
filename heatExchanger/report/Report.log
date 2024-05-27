@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.10.31)  20 APR 2024 13:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.10.31)  22 MAY 2024 03:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -606,31 +606,31 @@ No file Report.toc.
 
 [2]
 
-LaTeX Warning: Citation `wOfDocSalome' on page 3 undefined on input line 137.
+LaTeX Warning: Citation `wOfDocSalome' on page 3 undefined on input line 138.
 
 [3]<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
-LaTeX Font Info:    Trying to load font information for U+msa on input line 147.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 148.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 147.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 148.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [4] [5] [6] [7]
 <images/1.1.png, id=50, 787.743pt x 358.33875pt>
 File: images/1.1.png Graphic file (type png)
 <use images/1.1.png>
-Package pdftex.def Info: images/1.1.png  used on input line 360.
+Package pdftex.def Info: images/1.1.png  used on input line 361.
 (pdftex.def)             Requested size: 234.73524pt x 106.77524pt.
 <images/1.2.png, id=52, 786.5385pt x 422.7795pt>
 File: images/1.2.png Graphic file (type png)
 <use images/1.2.png>
-Package pdftex.def Info: images/1.2.png  used on input line 366.
+Package pdftex.def Info: images/1.2.png  used on input line 367.
 (pdftex.def)             Requested size: 234.73524pt x 126.17036pt.
 <images/1.3.png, id=53, 787.14075pt x 426.393pt>
 File: images/1.3.png Graphic file (type png)
 <use images/1.3.png>
-Package pdftex.def Info: images/1.3.png  used on input line 372.
+Package pdftex.def Info: images/1.3.png  used on input line 373.
 (pdftex.def)             Requested size: 234.73524pt x 127.15765pt.
 
 
@@ -640,116 +640,116 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <images/2.1.png, id=59, 777.50475pt x 348.1005pt>
 File: images/2.1.png Graphic file (type png)
 <use images/2.1.png>
-Package pdftex.def Info: images/2.1.png  used on input line 380.
+Package pdftex.def Info: images/2.1.png  used on input line 381.
 (pdftex.def)             Requested size: 234.73524pt x 105.08958pt.
 <images/2.2.png, id=60, 789.54974pt x 428.802pt>
 File: images/2.2.png Graphic file (type png)
 <use images/2.2.png>
-Package pdftex.def Info: images/2.2.png  used on input line 386.
+Package pdftex.def Info: images/2.2.png  used on input line 387.
 (pdftex.def)             Requested size: 234.73524pt x 127.48347pt.
  [9 </home/alexesn/FOAM_project/heatExchanger/report/images/1.3.png> </home/alexesn/FOAM_project/heatExchanger/report/images/2.1.png> </home/alexesn/FOAM_project/heatExchanger/report/images/2.2.png>]
 <images/2.3.png, id=67, 783.52725pt x 424.58624pt>
 File: images/2.3.png Graphic file (type png)
 <use images/2.3.png>
-Package pdftex.def Info: images/2.3.png  used on input line 393.
+Package pdftex.def Info: images/2.3.png  used on input line 394.
 (pdftex.def)             Requested size: 234.73524pt x 127.20192pt.
 
 
-LaTeX Warning: Command \cyrm invalid in math mode on input line 400.
+LaTeX Warning: Command \cyrm invalid in math mode on input line 401.
 
 Missing character: There is no м in font cmr12!
 
-LaTeX Warning: Citation `aHeatTranserf' on page 10 undefined on input line 401.
+LaTeX Warning: Citation `aHeatTranserf' on page 10 undefined on input line 402.
 
 
-LaTeX Warning: Command \cyrm invalid in math mode on input line 407.
+LaTeX Warning: Command \cyrm invalid in math mode on input line 408.
 
 Missing character: There is no м in font cmr12!
 <images/3.png, id=68, 945.5325pt x 354.123pt>
 File: images/3.png Graphic file (type png)
 <use images/3.png>
-Package pdftex.def Info: images/3.png  used on input line 427.
+Package pdftex.def Info: images/3.png  used on input line 428.
 (pdftex.def)             Requested size: 164.31754pt x 61.54016pt.
 
-LaTeX Warning: Citation `wChtMultiRegionFoam' on page 10 undefined on input line 434.
+LaTeX Warning: Citation `wChtMultiRegionFoam' on page 10 undefined on input line 435.
 
 
-LaTeX Warning: Citation `aHeatTranserf' on page 10 undefined on input line 435.
+LaTeX Warning: Citation `aHeatTranserf' on page 10 undefined on input line 436.
 
 [10 </home/alexesn/FOAM_project/heatExchanger/report/images/2.3.png> </home/alexesn/FOAM_project/heatExchanger/report/images/3.png>]
 <images/5.1.png, id=74, 816.04875pt x 433.62pt>
 File: images/5.1.png Graphic file (type png)
 <use images/5.1.png>
-Package pdftex.def Info: images/5.1.png  used on input line 440.
+Package pdftex.def Info: images/5.1.png  used on input line 441.
 (pdftex.def)             Requested size: 211.26028pt x 112.25552pt.
 <images/5.2.png, id=75, 817.8555pt x 435.42674pt>
 File: images/5.2.png Graphic file (type png)
 <use images/5.2.png>
-Package pdftex.def Info: images/5.2.png  used on input line 447.
+Package pdftex.def Info: images/5.2.png  used on input line 448.
 (pdftex.def)             Requested size: 211.26028pt x 112.47078pt.
 <images/5.3.png, id=76, 819.06pt x 437.83575pt>
 File: images/5.3.png Graphic file (type png)
 <use images/5.3.png>
-Package pdftex.def Info: images/5.3.png  used on input line 454.
+Package pdftex.def Info: images/5.3.png  used on input line 455.
 (pdftex.def)             Requested size: 211.26028pt x 112.92601pt.
  [11 </home/alexesn/FOAM_project/heatExchanger/report/images/5.1.png> </home/alexesn/FOAM_project/heatExchanger/report/images/5.2.png> </home/alexesn/FOAM_project/heatExchanger/report/images/5.3.png>] [12]
 <images/6.1.png, id=87, 406.51875pt x 433.62pt>
 File: images/6.1.png Graphic file (type png)
 <use images/6.1.png>
-Package pdftex.def Info: images/6.1.png  used on input line 486.
+Package pdftex.def Info: images/6.1.png  used on input line 487.
 (pdftex.def)             Requested size: 187.78532pt x 200.3013pt.
 <images/6.2.png, id=88, 404.712pt x 430.60875pt>
 File: images/6.2.png Graphic file (type png)
 <use images/6.2.png>
-Package pdftex.def Info: images/6.2.png  used on input line 492.
+Package pdftex.def Info: images/6.2.png  used on input line 493.
 (pdftex.def)             Requested size: 187.78532pt x 199.8039pt.
  [13 </home/alexesn/FOAM_project/heatExchanger/report/images/6.1.png> </home/alexesn/FOAM_project/heatExchanger/report/images/6.2.png>]
 <images/6.3.png, id=94, 402.303pt x 433.62pt>
 File: images/6.3.png Graphic file (type png)
 <use images/6.3.png>
-Package pdftex.def Info: images/6.3.png  used on input line 499.
+Package pdftex.def Info: images/6.3.png  used on input line 500.
 (pdftex.def)             Requested size: 187.78532pt x 202.40535pt.
 <images/6.png, id=95, 405.31425pt x 430.60875pt>
 File: images/6.png Graphic file (type png)
 <use images/6.png>
-Package pdftex.def Info: images/6.png  used on input line 505.
+Package pdftex.def Info: images/6.png  used on input line 506.
 (pdftex.def)             Requested size: 187.78532pt x 199.50166pt.
  [14 </home/alexesn/FOAM_project/heatExchanger/report/images/6.3.png> </home/alexesn/FOAM_project/heatExchanger/report/images/6.png>]
 <images/11.1.png, id=101, 386.6445pt x 254.1495pt>
 File: images/11.1.png Graphic file (type png)
 <use images/11.1.png>
-Package pdftex.def Info: images/11.1.png  used on input line 515.
+Package pdftex.def Info: images/11.1.png  used on input line 516.
 (pdftex.def)             Requested size: 164.31754pt x 108.00629pt.
 <images/12.1.png, id=102, 387.24675pt x 252.34274pt>
 File: images/12.1.png Graphic file (type png)
 <use images/12.1.png>
-Package pdftex.def Info: images/12.1.png  used on input line 521.
+Package pdftex.def Info: images/12.1.png  used on input line 522.
 (pdftex.def)             Requested size: 164.31754pt x 107.07674pt.
 <images/13.1.png, id=103, 390.258pt x 251.7405pt>
 File: images/13.1.png Graphic file (type png)
 <use images/13.1.png>
-Package pdftex.def Info: images/13.1.png  used on input line 527.
+Package pdftex.def Info: images/13.1.png  used on input line 528.
 (pdftex.def)             Requested size: 164.31754pt x 105.99532pt.
  [15 </home/alexesn/FOAM_project/heatExchanger/report/images/11.1.png> </home/alexesn/FOAM_project/heatExchanger/report/images/12.1.png> </home/alexesn/FOAM_project/heatExchanger/report/images/13.1.png>]
 <images/14.1.png, id=110, 382.42876pt x 253.54726pt>
 File: images/14.1.png Graphic file (type png)
 <use images/14.1.png>
-Package pdftex.def Info: images/14.1.png  used on input line 534.
+Package pdftex.def Info: images/14.1.png  used on input line 535.
 (pdftex.def)             Requested size: 187.78532pt x 124.49844pt.
 <images/15.1.png, id=111, 380.622pt x 252.34274pt>
 File: images/15.1.png Graphic file (type png)
 <use images/15.1.png>
-Package pdftex.def Info: images/15.1.png  used on input line 540.
+Package pdftex.def Info: images/15.1.png  used on input line 541.
 (pdftex.def)             Requested size: 187.78532pt x 124.49997pt.
 <images/7.1.png, id=112, 819.06pt x 432.4155pt>
 File: images/7.1.png Graphic file (type png)
 <use images/7.1.png>
-Package pdftex.def Info: images/7.1.png  used on input line 550.
+Package pdftex.def Info: images/7.1.png  used on input line 551.
 (pdftex.def)             Requested size: 187.78532pt x 99.13676pt.
 <images/7.2.png, id=113, 819.66225pt x 437.2335pt>
 File: images/7.2.png Graphic file (type png)
 <use images/7.2.png>
-Package pdftex.def Info: images/7.2.png  used on input line 557.
+Package pdftex.def Info: images/7.2.png  used on input line 558.
 (pdftex.def)             Requested size: 187.78532pt x 100.16795pt.
 
 
@@ -759,17 +759,17 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <images/7.3.png, id=120, 814.242pt x 434.8245pt>
 File: images/7.3.png Graphic file (type png)
 <use images/7.3.png>
-Package pdftex.def Info: images/7.3.png  used on input line 564.
+Package pdftex.def Info: images/7.3.png  used on input line 565.
 (pdftex.def)             Requested size: 187.78532pt x 100.27956pt.
 <images/8.1.png, id=121, 817.25325pt x 435.42674pt>
 File: images/8.1.png Graphic file (type png)
 <use images/8.1.png>
-Package pdftex.def Info: images/8.1.png  used on input line 573.
+Package pdftex.def Info: images/8.1.png  used on input line 574.
 (pdftex.def)             Requested size: 187.78532pt x 100.04637pt.
 <images/8.2.png, id=122, 814.242pt x 434.8245pt>
 File: images/8.2.png Graphic file (type png)
 <use images/8.2.png>
-Package pdftex.def Info: images/8.2.png  used on input line 580.
+Package pdftex.def Info: images/8.2.png  used on input line 581.
 (pdftex.def)             Requested size: 187.78532pt x 100.27956pt.
 
 
@@ -779,49 +779,49 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <images/8.3.png, id=129, 820.2645pt x 437.2335pt>
 File: images/8.3.png Graphic file (type png)
 <use images/8.3.png>
-Package pdftex.def Info: images/8.3.png  used on input line 587.
+Package pdftex.def Info: images/8.3.png  used on input line 588.
 (pdftex.def)             Requested size: 187.78532pt x 100.09457pt.
 <images/9.png, id=130, 819.66225pt x 436.63126pt>
 File: images/9.png Graphic file (type png)
 <use images/9.png>
-Package pdftex.def Info: images/9.png  used on input line 593.
+Package pdftex.def Info: images/9.png  used on input line 594.
 (pdftex.def)             Requested size: 187.78532pt x 100.02998pt.
 
-Overfull \hbox (39.7313pt too wide) in paragraph at lines 598--598
+Overfull \hbox (39.7313pt too wide) in paragraph at lines 599--599
 []\T2A/cmr/bx/n/17.28 Проблема с ав-то-ма-ти-че-ской ге-не-ра-ци-ей сет-ки в SALOME 
  []
 
-LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 603.
+LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 604.
 (/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
 LaTeX Font Info:    Font shape `T2A/cmtt/bx/n' in size <14.4> not available
-(Font)              Font shape `T2A/cmtt/m/n' tried instead on input line 603.
+(Font)              Font shape `T2A/cmtt/m/n' tried instead on input line 604.
  [18 </home/alexesn/FOAM_project/heatExchanger/report/images/8.2.png> </home/alexesn/FOAM_project/heatExchanger/report/images/8.3.png> </home/alexesn/FOAM_project/heatExchanger/report/images/9.png>]
-Overfull \hbox (24.4089pt too wide) in paragraph at lines 624--624
+Overfull \hbox (24.4089pt too wide) in paragraph at lines 625--625
 []\T2A/cmtt/m/n/12 print(f"ID форм внутри прямоугольного параллелепипеда: {shapes_inside_box_ids}")[] 
  []
 
 
-Overfull \hbox (3.0245pt too wide) in paragraph at lines 630--631
+Overfull \hbox (3.0245pt too wide) in paragraph at lines 631--632
 []\T2A/cmr/m/n/12 Функция \T2A/cmtt/m/n/12 GetShapesOnPlaneWithLocationIDs \T2A/cmr/m/n/12 воз-вра-ща-ет иден-ти-фи-ка-то-ры форм, ко-
  []
 
 
-Overfull \hbox (18.23541pt too wide) in paragraph at lines 637--637
+Overfull \hbox (18.23541pt too wide) in paragraph at lines 638--638
 []\T2A/cmtt/m/n/12 shapes_on_plane_ids = geompy.GetShapesOnPlaneWithLocationIDs(main_shape, plane)[] 
  []
 
 
-LaTeX Warning: Citation `salome_doc' on page 19 undefined on input line 639.
+LaTeX Warning: Citation `salome_doc' on page 19 undefined on input line 640.
 
 
-Overfull \hbox (5.44543pt too wide) in paragraph at lines 643--643
+Overfull \hbox (5.44543pt too wide) in paragraph at lines 644--644
 []\T2A/cmr/bx/n/17.28 Автоматизированный про-цесс ге-не-ра-ции сет-ки и рас-
  []
 
 [19]
-Overfull \hbox (3.96976pt too wide) in paragraph at lines 661--662
+Overfull \hbox (3.96976pt too wide) in paragraph at lines 662--663
 \T2A/cmr/m/n/12 щие 25 то-чек ва-рьи-ро-ва-ния па-ра-мет-ров. Ис-сле-ду-е-мые па-ра-мет-ры \T2A/cmtt/m/n/12 shift_first_cylinder
  []
 
@@ -829,34 +829,34 @@ Overfull \hbox (3.96976pt too wide) in paragraph at lines 661--662
 <images/16.1.jpg, id=146, 462.528pt x 346.896pt>
 File: images/16.1.jpg Graphic file (type jpg)
 <use images/16.1.jpg>
-Package pdftex.def Info: images/16.1.jpg  used on input line 665.
+Package pdftex.def Info: images/16.1.jpg  used on input line 666.
 (pdftex.def)             Requested size: 187.78532pt x 140.84145pt.
 <images/16.2.jpg, id=147, 462.528pt x 346.896pt>
 File: images/16.2.jpg Graphic file (type jpg)
 <use images/16.2.jpg>
-Package pdftex.def Info: images/16.2.jpg  used on input line 672.
+Package pdftex.def Info: images/16.2.jpg  used on input line 673.
 (pdftex.def)             Requested size: 187.78532pt x 140.84145pt.
  [21 </home/alexesn/FOAM_project/heatExchanger/report/images/16.1.jpg> </home/alexesn/FOAM_project/heatExchanger/report/images/16.2.jpg>]
 <images/16.3.jpg, id=151, 462.528pt x 346.896pt>
 File: images/16.3.jpg Graphic file (type jpg)
 <use images/16.3.jpg>
-Package pdftex.def Info: images/16.3.jpg  used on input line 679.
+Package pdftex.def Info: images/16.3.jpg  used on input line 680.
 (pdftex.def)             Requested size: 187.78532pt x 140.84145pt.
  [22 </home/alexesn/FOAM_project/heatExchanger/report/images/16.3.jpg>]
 <images/17.1.jpg, id=155, 925.056pt x 461.0826pt>
 File: images/17.1.jpg Graphic file (type jpg)
 <use images/17.1.jpg>
-Package pdftex.def Info: images/17.1.jpg  used on input line 708.
+Package pdftex.def Info: images/17.1.jpg  used on input line 709.
 (pdftex.def)             Requested size: 187.78532pt x 93.59384pt.
 <images/17.2.jpg, id=156, 925.056pt x 461.0826pt>
 File: images/17.2.jpg Graphic file (type jpg)
 <use images/17.2.jpg>
-Package pdftex.def Info: images/17.2.jpg  used on input line 714.
+Package pdftex.def Info: images/17.2.jpg  used on input line 715.
 (pdftex.def)             Requested size: 187.78532pt x 93.59384pt.
 <images/18.1.jpg, id=157, 925.056pt x 461.0826pt>
 File: images/18.1.jpg Graphic file (type jpg)
 <use images/18.1.jpg>
-Package pdftex.def Info: images/18.1.jpg  used on input line 723.
+Package pdftex.def Info: images/18.1.jpg  used on input line 724.
 (pdftex.def)             Requested size: 187.78532pt x 93.59384pt.
 
 
@@ -865,7 +865,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <images/18.2.jpg, id=158, 925.056pt x 461.0826pt>
 File: images/18.2.jpg Graphic file (type jpg)
 <use images/18.2.jpg>
-Package pdftex.def Info: images/18.2.jpg  used on input line 729.
+Package pdftex.def Info: images/18.2.jpg  used on input line 730.
 (pdftex.def)             Requested size: 187.78532pt x 93.59384pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -874,12 +874,12 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <images/18.3.jpg, id=162, 925.056pt x 461.0826pt>
 File: images/18.3.jpg Graphic file (type jpg)
 <use images/18.3.jpg>
-Package pdftex.def Info: images/18.3.jpg  used on input line 740.
+Package pdftex.def Info: images/18.3.jpg  used on input line 741.
 (pdftex.def)             Requested size: 187.78532pt x 93.59384pt.
 <images/19.jpg, id=163, 373.99725pt x 304.7385pt>
 File: images/19.jpg Graphic file (type jpg)
 <use images/19.jpg>
-Package pdftex.def Info: images/19.jpg  used on input line 749.
+Package pdftex.def Info: images/19.jpg  used on input line 750.
 (pdftex.def)             Requested size: 187.78532pt x 153.01056pt.
 
 
@@ -889,28 +889,28 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <images/20.jpg, id=168, 450.483pt x 280.6485pt>
 File: images/20.jpg Graphic file (type jpg)
 <use images/20.jpg>
-Package pdftex.def Info: images/20.jpg  used on input line 762.
+Package pdftex.def Info: images/20.jpg  used on input line 763.
 (pdftex.def)             Requested size: 187.78532pt x 116.9894pt.
 <images/21.1.jpg, id=169, 660.66824pt x 395.67825pt>
 File: images/21.1.jpg Graphic file (type jpg)
 <use images/21.1.jpg>
-Package pdftex.def Info: images/21.1.jpg  used on input line 773.
+Package pdftex.def Info: images/21.1.jpg  used on input line 774.
 (pdftex.def)             Requested size: 187.78532pt x 112.46155pt.
  [25 </home/alexesn/FOAM_project/heatExchanger/report/images/19.jpg> </home/alexesn/FOAM_project/heatExchanger/report/images/20.jpg>]
 <images/21.2.jpg, id=173, 770.88pt x 438.438pt>
 File: images/21.2.jpg Graphic file (type jpg)
 <use images/21.2.jpg>
-Package pdftex.def Info: images/21.2.jpg  used on input line 779.
+Package pdftex.def Info: images/21.2.jpg  used on input line 780.
 (pdftex.def)             Requested size: 187.78532pt x 106.79941pt.
 <images/21.3.jpg, id=174, 770.88pt x 438.438pt>
 File: images/21.3.jpg Graphic file (type jpg)
 <use images/21.3.jpg>
-Package pdftex.def Info: images/21.3.jpg  used on input line 785.
+Package pdftex.def Info: images/21.3.jpg  used on input line 786.
 (pdftex.def)             Requested size: 187.78532pt x 106.79941pt.
 <images/21.4.jpg, id=175, 704.03024pt x 409.53pt>
 File: images/21.4.jpg Graphic file (type jpg)
 <use images/21.4.jpg>
-Package pdftex.def Info: images/21.4.jpg  used on input line 794.
+Package pdftex.def Info: images/21.4.jpg  used on input line 795.
 (pdftex.def)             Requested size: 187.78532pt x 109.23105pt.
 
 
@@ -920,28 +920,28 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <images/21.5.jpg, id=179, 731.1315pt x 436.029pt>
 File: images/21.5.jpg Graphic file (type jpg)
 <use images/21.5.jpg>
-Package pdftex.def Info: images/21.5.jpg  used on input line 804.
+Package pdftex.def Info: images/21.5.jpg  used on input line 805.
 (pdftex.def)             Requested size: 187.78532pt x 111.98764pt.
  [27 </home/alexesn/FOAM_project/heatExchanger/report/images/21.4.jpg> </home/alexesn/FOAM_project/heatExchanger/report/images/21.5.jpg>]
 <images/22.1.jpg, id=183, 770.88pt x 475.7775pt>
 File: images/22.1.jpg Graphic file (type jpg)
 <use images/22.1.jpg>
-Package pdftex.def Info: images/22.1.jpg  used on input line 823.
+Package pdftex.def Info: images/22.1.jpg  used on input line 824.
 (pdftex.def)             Requested size: 187.78532pt x 115.89497pt.
 <images/22.2.jpg, id=184, 682.9515pt x 422.7795pt>
 File: images/22.2.jpg Graphic file (type jpg)
 <use images/22.2.jpg>
-Package pdftex.def Info: images/22.2.jpg  used on input line 829.
+Package pdftex.def Info: images/22.2.jpg  used on input line 830.
 (pdftex.def)             Requested size: 187.78532pt x 116.24858pt.
 <images/22.3.jpg, id=185, 461.92575pt x 261.3765pt>
 File: images/22.3.jpg Graphic file (type jpg)
 <use images/22.3.jpg>
-Package pdftex.def Info: images/22.3.jpg  used on input line 835.
+Package pdftex.def Info: images/22.3.jpg  used on input line 836.
 (pdftex.def)             Requested size: 187.78532pt x 106.25572pt.
 <images/22.4.jpg, id=186, 770.88pt x 343.88475pt>
 File: images/22.4.jpg Graphic file (type jpg)
 <use images/22.4.jpg>
-Package pdftex.def Info: images/22.4.jpg  used on input line 841.
+Package pdftex.def Info: images/22.4.jpg  used on input line 842.
 (pdftex.def)             Requested size: 187.78532pt x 83.76712pt.
 
 
@@ -951,12 +951,12 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <images/23.1.jpg, id=190, 502.2765pt x 417.9615pt>
 File: images/23.1.jpg Graphic file (type jpg)
 <use images/23.1.jpg>
-Package pdftex.def Info: images/23.1.jpg  used on input line 852.
+Package pdftex.def Info: images/23.1.jpg  used on input line 853.
 (pdftex.def)             Requested size: 187.78532pt x 156.26323pt.
 <images/23.2.jpg, id=191, 926.71219pt x 587.19376pt>
 File: images/23.2.jpg Graphic file (type jpg)
 <use images/23.2.jpg>
-Package pdftex.def Info: images/23.2.jpg  used on input line 858.
+Package pdftex.def Info: images/23.2.jpg  used on input line 859.
 (pdftex.def)             Requested size: 187.78532pt x 118.98672pt.
 
 
@@ -965,56 +965,56 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <images/23.3.jpg, id=192, 845.40843pt x 500.62032pt>
 File: images/23.3.jpg Graphic file (type jpg)
 <use images/23.3.jpg>
-Package pdftex.def Info: images/23.3.jpg  used on input line 864.
+Package pdftex.def Info: images/23.3.jpg  used on input line 865.
 (pdftex.def)             Requested size: 187.78532pt x 111.19861pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [29 </home/alexesn/FOAM_project/heatExchanger/report/images/22.4.jpg> </home/alexesn/FOAM_project/heatExchanger/report/images/23.1.jpg>] [30 </home/alexesn/FOAM_project/heatExchanger/report/images/23.2.jpg> </home/alexesn/FOAM_project/heatExchanger/report/images/23.3.jpg>]
 
-LaTeX Warning: Citation `evolution' on page 31 undefined on input line 890.
+LaTeX Warning: Citation `evolution' on page 31 undefined on input line 891.
 
 [31]
 
-LaTeX Warning: Citation `Chernyshev2007' on page 32 undefined on input line 907.
+LaTeX Warning: Citation `Chernyshev2007' on page 32 undefined on input line 908.
 
 <images/24.jpg, id=203, 770.88pt x 493.845pt>
 File: images/24.jpg Graphic file (type jpg)
 <use images/24.jpg>
-Package pdftex.def Info: images/24.jpg  used on input line 911.
+Package pdftex.def Info: images/24.jpg  used on input line 912.
 (pdftex.def)             Requested size: 187.78532pt x 120.29605pt.
 
-Overfull \hbox (6.23558pt too wide) in paragraph at lines 916--917
+Overfull \hbox (6.23558pt too wide) in paragraph at lines 917--918
 []\T2A/cmr/m/n/12 L-BFGS-B (Limited-memory Broyden-Fletcher-Goldfarb-Shanno with Bound constraints): 
  []
 
 
-LaTeX Warning: Citation `limited_BFGS' on page 32 undefined on input line 935.
+LaTeX Warning: Citation `limited_BFGS' on page 32 undefined on input line 936.
 
 [32 </home/alexesn/FOAM_project/heatExchanger/report/images/24.jpg>] [33]
 
-/home/alexesn/FOAM_project/heatExchanger/report/Report.tex:951: Package inputenc Error: Unicode character пїЅ (U+FFFD)
+/home/alexesn/FOAM_project/heatExchanger/report/Report.tex:956: Package inputenc Error: Unicode character пїЅ (U+FFFD)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.951 ... СЃСЂР°РІРЅРµРЅРёСЋ СЃ РїРѕР»РЅС‹Рј РїпїЅ
-                                                  пїЅСЂРµР±РѕСЂРѕРј.
+l.956 ...С‚СЊ РІС‹РІРѕРґ Рѕ С‚РѕРј, С‡С‚Рѕ РѕРїпїЅ
+                                                  пїЅРёРјРёР·Р°С†РёСЏ РіРµРѕ...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-/home/alexesn/FOAM_project/heatExchanger/report/Report.tex:951: Package inputenc Error: Unicode character пїЅ (U+FFFD)
+/home/alexesn/FOAM_project/heatExchanger/report/Report.tex:956: Package inputenc Error: Unicode character пїЅ (U+FFFD)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.951 ...СЂР°РІРЅРµРЅРёСЋ СЃ РїРѕР»РЅС‹Рј РїпїЅпїЅ
-                                                  СЂРµР±РѕСЂРѕРј.
+l.956 ...Њ РІС‹РІРѕРґ Рѕ С‚РѕРј, С‡С‚Рѕ РѕРїпїЅпїЅ
+                                                  РёРјРёР·Р°С†РёСЏ РіРµРѕРјР...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -1050,7 +1050,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--53
 
 ) [36]
 
-Package lastpage Warning: Rerun to get the references right on input line 967.
+Package lastpage Warning: Rerun to get the references right on input line 968.
 
 
 AED: lastpage setting LastPage
@@ -1069,9 +1069,9 @@ Here is how much of TeX's memory you used:
  21454 multiletter control sequences out of 15000+600000
  551009 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,12n,27p,994b,274s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,12n,27p,998b,274s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t2a.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1440.pfb>
-Output written on /home/alexesn/FOAM_project/heatExchanger/report/Report.pdf (38 pages, 2244817 bytes).
+Output written on /home/alexesn/FOAM_project/heatExchanger/report/Report.pdf (38 pages, 2244816 bytes).
 PDF statistics:
  286 PDF objects out of 1000 (max. 8388607)
  146 compressed objects within 2 object streams
