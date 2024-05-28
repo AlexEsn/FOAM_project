@@ -16,7 +16,7 @@ FoamFile
 
 dimensions      [ 0 1 -1 0 0 0 0 ];
 //              400 л в час
-internalField   uniform (0.04 0 0);
+internalField   uniform (4.44 0 0);
 
 boundaryField
 {

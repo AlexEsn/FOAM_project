@@ -12,7 +12,7 @@ max_value = 20
 
 salome_executable = "~/SALOME-9.11.0-native-UB20.04-SRC/binsalome"
 base_path = '.'
-python_script = base_path + "/autogenerate_with_block.py"
+python_script = base_path + "/autogenerate_template/autogenerate_with_block_tube.py"
 
 all_data = {}
 
@@ -21,8 +21,8 @@ def objective_function(blocks):
     blocks_name = '_'.join(map(str, blocks))
     new_name = f"_{blocks_name}"
 
-    source_folder = f"{base_path}/case"
-    destination_folder = f"{base_path}/case{new_name}"
+    source_folder = f"{base_path}/block_case"
+    destination_folder = f"{base_path}/block_case{new_name}"
 
     try:
         # Копирование кейса
@@ -41,13 +41,13 @@ def objective_function(blocks):
         print(f"Произошла ошибка при копировании или расчете сетки: {e}")
     try:
         print("Запуск расчета")
-        bash_script_path = f"./case{new_name}/Allmesh >> /dev/null"
+        bash_script_path = f"./block_case{new_name}/Allmesh >> /dev/null"
 
         # Запуск расчета сетки
         subprocess.check_output(bash_script_path, shell=True, text=True)
 
-        bash_script_path = f"./case{new_name}/Allrun >> /dev/null"
-        # bash_script_path = f"./case{new_name}/Allrun-parallel >> /dev/null"
+        bash_script_path = f"./block_case{new_name}/Allrun >> /dev/null"
+        # bash_script_path = f"./block_case{new_name}/Allrun-parallel >> /dev/null"
 
         # Запуск расчета кейса
         subprocess.check_output(bash_script_path, shell=True, text=True)
@@ -57,7 +57,7 @@ def objective_function(blocks):
     try:
 
         print("Ищем последнее значение")
-        file_path = f"{base_path}/case{new_name}/postProcessing/heater/cellMaxHeaterT/0/volFieldValue.dat"
+        file_path = f"{base_path}/block_case{new_name}/postProcessing/heater/cellMaxHeaterT/0/volFieldValue.dat"
 
         # Пытаемся открыть файл
         with open(file_path, 'r') as file:
@@ -68,11 +68,14 @@ def objective_function(blocks):
                     last_value = float(line.split()[-1])
                     break
             print(f"Последнее значение: {last_value:.6e}")
+        # if last_value > 6.0:
         all_data[new_name] = last_value
-
         return (last_value, )  # Возвращаем кортеж
+        # else:
+        # return (float("+inf"), )
     except Exception as e:
         print(f"Произошла ошибка: {str(e)}")
+        return (float("+inf"), )
 
 
 def evaluate_parallel(individual):
@@ -102,10 +105,10 @@ if __name__ == "__main__":
     toolbox.register("map", pool.map)
 
     # Инициализация популяции
-    population = toolbox.population(n=1)
+    population = toolbox.population(n=30)
 
     # Определение параметров эволюционного алгоритма
-    cxpb, mutpb, ngen = 0.7, 0.2, 100
+    cxpb, mutpb, ngen = 0.7, 0.2, 10
 
     # Запуск эволюционного алгоритма с использованием пула процессов
     algorithms.eaSimple(population, toolbox, cxpb, mutpb, ngen,
